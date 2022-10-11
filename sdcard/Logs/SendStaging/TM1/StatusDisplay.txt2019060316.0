@@ -1,0 +1,307 @@
+[LogStart]
+2019-06-03 15:59:59,029 [100431790] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 15,99    OK  
+2019-06-03 16:00:40,030 [1173266358] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 17,99    OK  
+2019-06-03 16:00:40,031 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:4
+2019-06-03 16:00:48,032 [1711737822] DEBUG NmeaReaderMonitor - sats:8
+2019-06-03 16:00:52,033 [1715142898] DEBUG NmeaReaderMonitor - sats:10
+2019-06-03 16:00:54,034 [-1511155302] DEBUG NmeaReaderMonitor - sats:8
+2019-06-03 16:01:05,035 [-972497026] DEBUG NmeaReaderMonitor - sats:10
+2019-06-03 16:01:21,036 [1711737822] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 16,99    OK  
+2019-06-03 16:01:35,037 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5615.93131,N,00345.91614,W,150135.00,A,A*7F @160134
+2019-06-03 16:02:02,038 [-2042952282] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 18,99    OK  
+2019-06-03 16:02:43,039 [1173266358] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 16,99    OK  
+2019-06-03 16:03:23,040 [1715298166] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 18,99    OK  
+2019-06-03 16:03:30,041 [-437255974] DEBUG NmeaReaderMonitor - sats:8
+2019-06-03 16:03:35,042 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5615.93123,N,00345.91852,W,150335.00,A,A*72 @160334
+2019-06-03 16:03:39,043 [-1505120470] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:03:41,044 [-1505120470] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:03:48,045 [100431790] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:04:04,046 [-972497026] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 18,99    OK  
+2019-06-03 16:04:45,047 [-1505120470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 21,99    OK  
+2019-06-03 16:04:45,048 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:04:57,049 [1715142898] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:04:57
+2019-06-03 16:04:57,050 [1715142898] DEBUG TimeSync.NtpService - Setting time to:20190603 150457
+2019-06-03 16:05:14,051 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:05:14,052 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:05:15,053 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:05:15,054 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:05:15,055 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:05:15,056 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:05:15,057 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:05:15,058 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:05:17,059 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DepartureCountdown
+2019-06-03 16:05:18,060 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DepartureCountdown
+2019-06-03 16:05:18,061 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:05:18,062 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:05:18,063 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DepartureCountdown
+2019-06-03 16:05:18,064 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DepartureCountdown
+2019-06-03 16:05:25,065 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:05:25,066 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:05:26,067 [1719406594] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 20,99    OK  
+2019-06-03 16:05:34,068 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5616.15100,N,00344.33967,W,150535.00,A,A*76 @160534
+2019-06-03 16:06:07,069 [-1505120470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 24,99    OK  
+2019-06-03 16:06:48,070 [-437255974] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 28,99    OK  
+2019-06-03 16:07:29,071 [-2042952282] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 24,99    OK  
+2019-06-03 16:07:29,072 [1719406594] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:07:31,073 [-1505120470] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:07:33,074 [-437255974] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:07:34,075 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.29498,N,00343.29382,W,150735.00,A,A*73 @160734
+2019-06-03 16:07:36,076 [-437255974] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:08:10,077 [-974219046] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 15,99    OK  
+2019-06-03 16:08:10,078 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:3
+[LogStart]
+2019-06-03 16:09:32,000 [1194526082] DEBUG Logging.LogManager - SET log delay:10000
+2019-06-03 16:09:32,001 [1194526082] INFO  StatusDisplay.frmMain - Starting SD (1.16.3.299)
+2019-06-03 16:09:32,002 [1194526082] DEBUG StatusDisplay.frmMain - PID:1196449650
+2019-06-03 16:09:32,003 [1194526082] DEBUG StatusDisplay.frmMain - Op config: RasConnection=O2;
+2019-06-03 16:09:33,004 [1194526082] DEBUG TPP - OK Q
+2019-06-03 16:09:33,005 [1194526082] DEBUG StatusDisplay.frmMain - START
+2019-06-03 16:09:33,006 [-2039017526] INFO  StatusDisplay.frmMain - Initting GPS
+2019-06-03 16:09:33,007 [-2039017526] DEBUG TM1.NMEAParser.NMEAParser - Max acceptable pdop:4.2
+2019-06-03 16:09:33,008 [modem_suspend] DEBUG StatusDisplay.frmMain - START ProcessWorkItems
+2019-06-03 16:09:33,009 [-2039017526] DEBUG TM1.AVL.GpsModuleNmeaReader - START open
+2019-06-03 16:09:33,010 [-2039017526] DEBUG TM1.AVL.GpsModuleNmeaReader - START open GPS Port
+2019-06-03 16:09:33,011 [-2039017526] DEBUG TM1.AVL.GpsModuleNmeaReader - OK open GPS port
+2019-06-03 16:09:33,012 [-2039017526] INFO  StatusDisplay.frmMain - [SC] Initting Status Handler
+2019-06-03 16:09:33,013 [-2039017526] DEBUG StatusDisplay.frmMain - START load SSL certs
+2019-06-03 16:09:39,014 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:NONE @never
+2019-06-03 16:09:41,015 [-1505400546] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:09:42,016 [-1505400546] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:09:37
+2019-06-03 16:09:42,017 [-1505400546] DEBUG TimeSync.NtpService - Setting time to:20190603 150937
+2019-06-03 16:09:39,018 [-2039017526] DEBUG StatusDisplay.frmMain - END load SSL certs
+2019-06-03 16:09:39,019 [-2039017526] INFO  StatusDisplay.frmMain - Initting Connection
+2019-06-03 16:09:47,020 [-2039017526] DEBUG RegistryUtils - Flushed LocalMachine. Result - 0
+2019-06-03 16:09:47,021 [-2039017526] DEBUG RegistryUtils - Flushed CurrentUser. Result - 0
+2019-06-03 16:09:47,022 [-2039017526] DEBUG RegistryUtils - Flushed Users. Result - 0
+2019-06-03 16:09:53,023 [-2039017526] DEBUG ConnectionManager - [GPRS] - Reported Connection Status: Bad 
+2019-06-03 16:09:53,024 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:HwInitted
+2019-06-03 16:09:53,025 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:HwInitted
+2019-06-03 16:09:54,026 [-2039017526] DEBUG modem.GSMModem - GSMModem state: Starting
+2019-06-03 16:10:02,027 [-2039017526] DEBUG modem.GSMModem - Modem command: AT
+2019-06-03 16:10:03,028 [636608470] DEBUG modem.GSMModem - Modem buffer: AT   OK  
+2019-06-03 16:10:03,029 [-2039017526] DEBUG modem.GSMModem - Modem command: AT+MPSU=2
+2019-06-03 16:10:03,030 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+MPSU=2   OK  
+2019-06-03 16:10:04,031 [-2039017526] DEBUG modem.GSMModem - START open command port
+2019-06-03 16:10:04,032 [-2039017526] DEBUG modem.GSMModem - OK open command port
+2019-06-03 16:10:05,033 [-2039017526] DEBUG modem.GSMModem - Modem command: AT
+2019-06-03 16:10:05,034 [107466714] DEBUG modem.GSMModem - Modem buffer: AT   OK  
+2019-06-03 16:10:05,035 [-2039017526] DEBUG modem.GSMModem - Modem command:  AT+CPIN? 
+2019-06-03 16:10:05,036 [-2043470846] DEBUG modem.GSMModem - Modem buffer:  AT+CPIN?   +CPIN: READY    OK   
+2019-06-03 16:10:06,037 [-2039017526] DEBUG modem.GSMModem - Modem command: AT+CREG=1
+2019-06-03 16:10:06,038 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CREG=1   OK  
+2019-06-03 16:10:07,039 [-2039017526] DEBUG modem.GSMModem - Modem command: AT+CGREG=2
+2019-06-03 16:10:07,040 [-2045401222] DEBUG modem.GSMModem - Modem buffer: AT+CGREG=2   OK  
+2019-06-03 16:10:07,041 [-2039017526] DEBUG modem.GSMModem - Modem command: AT+CRSM=176,12258,0,0,10
+2019-06-03 16:10:07,042 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CRSM=176,12258,0,0,10   +CRSM: 144,0,984411005658521743F9    OK  
+2019-06-03 16:10:07,043 [-2039017526] DEBUG modem.GSMModem - GSMModem state: ReadyNoNetwork
+2019-06-03 16:10:07,044 [-2039017526] DEBUG StatusDisplay.frmMain - Setting SimId 8944110065852571349
+2019-06-03 16:10:07,045 [-2039017526] DEBUG modem.GSMModem - Modem command: AT+CREG?
+2019-06-03 16:10:07,046 [1174081482] DEBUG modem.GSMModem - Modem buffer: AT+CREG?   +CREG: 001,002    OK  
+2019-06-03 16:10:27,047 [ConnectionManager] DEBUG ConnectionManager - Refreshing network status
+2019-06-03 16:10:27,048 [ConnectionManager] DEBUG modem.GSMModem - Modem command: AT+CREG?
+2019-06-03 16:10:27,049 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CREG?   +CREG: 000,002    OK  
+2019-06-03 16:10:37,050 [ConnectionManager] DEBUG ConnectionManager - Refreshing network status
+2019-06-03 16:10:37,051 [ConnectionManager] DEBUG modem.GSMModem - Modem command: AT+CREG?
+2019-06-03 16:10:37,052 [-432860522] DEBUG modem.GSMModem - Modem buffer: AT+CREG?   +CREG: 000,001    OK  
+2019-06-03 16:10:37,053 [-432860522] DEBUG modem.GSMModem - GSMModem state: FoundNetwork
+2019-06-03 16:10:37,054 [DialWorker] DEBUG modem.GSMModem - Modem command: AT+CSQ
+2019-06-03 16:10:37,055 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 24,99    OK  
+2019-06-03 16:10:37,056 [DialWorker] DEBUG modem.GSMModem - Skipping modem response:  OK  
+2019-06-03 16:10:37,057 [DialWorker] DEBUG modem.GSMModem - Skipping modem response:  OK  
+2019-06-03 16:10:37,058 [DialWorker] DEBUG modem.GSMModem - Skipping modem response:  OK  
+2019-06-03 16:11:00,059 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:11:00,060 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:11:02,061 [DialWorker] DEBUG modem.GSMModem - Modem command: AT+CSQ
+2019-06-03 16:11:02,062 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:11:02,063 [DialWorker] DEBUG modem.GSMModem - Dialing RAS O2, user:  
+2019-06-03 16:11:03,064 [DialWorker] DEBUG modem.GSMModem - Ras state/error: OpenPort/Success
+2019-06-03 16:11:07,065 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:11:07,066 [DialWorker] DEBUG modem.GSMModem - Ras state/error: PortOpened/Success
+2019-06-03 16:11:08,067 [DialWorker] DEBUG modem.GSMModem - Ras state/error: DeviceConnected/Success
+2019-06-03 16:11:12,068 [DialWorker] DEBUG modem.GSMModem - Ras state/error: Authenticated/Success
+2019-06-03 16:11:16,069 [DialWorker] DEBUG modem.GSMModem - Ras state/error: Connected/Success
+2019-06-03 16:11:16,070 [DialWorker] DEBUG modem.GSMModem - GSMModem state: ConnectionEstablished
+2019-06-03 16:11:16,071 [DialWorker] DEBUG ConnectionManager - [GPRS] - Reported Connection Status: Maybe (83s)
+2019-06-03 16:11:17,072 [ConnectionManager] DEBUG HttpClient - 03151117_773027_comms.ticketer.org.uk launching worker thread
+2019-06-03 16:11:18,073 [connection_03151117_773027_comms.ticketer.org.uk] DEBUG HttpClient - 03151117_773027_comms.ticketer.org.uk connected, 159.8.50.171:80
+2019-06-03 16:11:19,074 [ConnectionManager] DEBUG ConnectionManager - [GPRS] - Reported Connection Status: Good (3s)
+2019-06-03 16:11:34,075 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.72604,N,00342.31707,W,151141.00,A,A*7F @161134
+2019-06-03 16:11:39,076 [636608470] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:11:43,077 [636608470] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:11:48,078 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:11:48,079 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:11:48,080 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:11:48,081 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:11:48,082 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:PrinterStatus
+2019-06-03 16:11:48,083 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:PrinterStatus
+2019-06-03 16:11:49,084 [-2045401222] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 30,99    OK  
+2019-06-03 16:11:52,085 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:SignalConnectionResult
+2019-06-03 16:11:52,086 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:SignalConnectionResult
+2019-06-03 16:12:32,087 [-2042269742] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:13:13,088 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:13:33,089 [1174081482] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:13:34,090 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.72413,N,00342.31257,W,151341.00,A,A*79 @161334
+2019-06-03 16:13:46,091 [636608470] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:13:54,092 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:14:29,093 [637209810] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:14:30,094 [-436095990] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:14:34,095 [-436095990] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:14:35,096 [-2039708022] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 30,99    OK  
+2019-06-03 16:14:38,097 [1711976414] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:14:45
+2019-06-03 16:14:38,098 [1711976414] DEBUG TimeSync.NtpService - Setting time to:20190603 151445
+2019-06-03 16:14:47,099 [636608470] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:15:00,100 [-2042269742] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:15:18,101 [-2039708022] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:15:23,102 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:15:31,103 [-2039017526] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:15:35,104 [1174081482] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:15:41,105 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.72533,N,00342.30185,W,151541.00,A,A*71 @161540
+2019-06-03 16:16:04,106 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:16:18,107 [1174081482] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:16:25,108 [107466714] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:16:45,109 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:17:26,110 [1174081482] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:17:41,111 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.72617,N,00342.30832,W,151742.00,A,A*70 @161741
+2019-06-03 16:18:07,112 [-2045401222] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:18:48,113 [-2045401222] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:19:00,114 [637209810] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:19:07,115 [-1508536538] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:19:09,116 [-1510854294] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:19:17,117 [1711976414] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:19:26,118 [-1510854294] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:19:29,119 [637209810] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:19:31,120 [107466714] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:19:35,121 [637209810] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:19:39,122 [-432860522] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:19:41,123 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.72681,N,00342.31660,W,151942.00,A,A*79 @161941
+2019-06-03 16:19:46,124 [-1508536538] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:19:46
+2019-06-03 16:19:46,125 [-1508536538] DEBUG TimeSync.NtpService - Setting time to:20190603 151946
+2019-06-03 16:20:05,126 [-432860522] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:20:09,127 [-1505400546] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:20:10,128 [-432860522] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:20:51,129 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:21:32,130 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:21:41,131 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74308,N,00342.29168,W,152142.00,A,A*76 @162141
+2019-06-03 16:22:10,132 [-1505400546] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:22:13,133 [-2039708022] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:22:14,134 [-1510854294] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:22:52,135 [-2042269742] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:22:54,136 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:22:54,137 [-432860522] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:23:35,138 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:23:41,139 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74219,N,00342.29631,W,152342.00,A,A*7E @162340
+2019-06-03 16:24:16,140 [107466714] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:24:47,141 [-2039708022] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:24:48
+2019-06-03 16:24:47,142 [-2039708022] DEBUG TimeSync.NtpService - Setting time to:20190603 152448
+2019-06-03 16:24:58,143 [637209810] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:25:38,144 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:25:41,145 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74288,N,00342.29578,W,152542.00,A,A*7E @162541
+2019-06-03 16:26:19,146 [-1508536538] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:27:00,147 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:27:41,148 [-1510854294] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:27:41,149 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74069,N,00342.29479,W,152742.00,A,A*71 @162741
+2019-06-03 16:28:22,150 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:29:03,151 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:29:41,152 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74120,N,00342.29512,W,152942.00,A,A*7F @162941
+2019-06-03 16:29:44,153 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:29:49,154 [637209810] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:29:50
+2019-06-03 16:29:49,155 [637209810] DEBUG TimeSync.NtpService - Setting time to:20190603 152950
+2019-06-03 16:30:26,156 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:31:07,157 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:31:42,158 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74116,N,00342.29248,W,153142.00,A,A*7B @163141
+2019-06-03 16:31:48,159 [-432860522] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:32:29,160 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:33:09,161 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:33:42,162 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.74115,N,00342.29070,W,153342.00,A,A*73 @163341
+2019-06-03 16:33:51,163 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:34:32,164 [-2039708022] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:34:51,165 [636608470] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:34:51
+2019-06-03 16:34:51,166 [636608470] DEBUG TimeSync.NtpService - Setting time to:20190603 153451
+2019-06-03 16:35:12,167 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:35:35,168 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:35:35,169 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:35:37,170 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:35:37,171 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:35:41,172 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.73152,N,00342.32526,W,153542.00,A,A*7D @163541
+2019-06-03 16:35:44,173 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:35:44,174 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:36:00,175 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:36:02,176 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:ResetSpoof
+2019-06-03 16:36:02,177 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:ResetSpoof
+2019-06-03 16:36:03,178 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message received:DriverMessage
+2019-06-03 16:36:03,179 [SDF P2PQueue handle-monitoring thread] DEBUG StatusDisplay.frmMain - Inter app message processed:DriverMessage
+2019-06-03 16:36:41,180 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:37:22,181 [-1510854294] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:37:50,182 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGSV,4,4,13,30,18,315,23*47 @163750
+2019-06-03 16:38:03,183 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 27,99    OK  
+2019-06-03 16:38:44,184 [-2039708022] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:39:25,185 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 28,99    OK  
+2019-06-03 16:39:49,186 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.79623,N,00342.34367,W,153951.00,A,A*7D @163949
+2019-06-03 16:39:52,187 [-2045401222] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:39:53
+2019-06-03 16:39:52,188 [-2045401222] DEBUG TimeSync.NtpService - Setting time to:20190603 153953
+2019-06-03 16:40:07,189 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:40:48,190 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:41:29,191 [107466714] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 29,99    OK  
+2019-06-03 16:41:50,192 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.79520,N,00342.34017,W,154151.00,A,A*76 @164150
+2019-06-03 16:42:10,193 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:42:51,194 [-2042269742] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 30,99    OK  
+2019-06-03 16:43:34,195 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:43:50,196 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.79212,N,00342.33895,W,154351.00,A,A*77 @164350
+2019-06-03 16:44:15,197 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:44:54,198 [1711976414] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:44:54
+2019-06-03 16:44:54,199 [1711976414] DEBUG TimeSync.NtpService - Setting time to:20190603 154454
+2019-06-03 16:44:56,200 [-436095990] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 25,99    OK  
+2019-06-03 16:45:37,201 [637209810] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:45:50,202 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.79904,N,00342.32347,W,154551.00,A,A*78 @164550
+2019-06-03 16:46:18,203 [-2045401222] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 27,99    OK  
+2019-06-03 16:47:00,204 [107466714] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 22,99    OK  
+2019-06-03 16:47:41,205 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 26,99    OK  
+2019-06-03 16:47:50,206 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5617.94683,N,00341.83769,W,154751.00,A,A*78 @164749
+2019-06-03 16:48:21,207 [1174081482] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 21,99    OK  
+2019-06-03 16:49:02,208 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 21,99    OK  
+2019-06-03 16:49:43,209 [-2039017526] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 25,99    OK  
+2019-06-03 16:49:50,210 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5618.30758,N,00340.63090,W,154951.00,A,A*7E @164949
+2019-06-03 16:49:55,211 [-2045401222] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:49:56
+2019-06-03 16:49:55,212 [-2045401222] DEBUG TimeSync.NtpService - Setting time to:20190603 154956
+2019-06-03 16:50:25,213 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 24,99    OK  
+2019-06-03 16:51:07,214 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 19,99    OK  
+2019-06-03 16:51:07,215 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:4
+2019-06-03 16:51:48,216 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 13,99    OK  
+2019-06-03 16:51:48,217 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:3
+2019-06-03 16:51:50,218 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5619.11871,N,00339.47913,W,155151.00,A,A*7B @165150
+2019-06-03 16:52:29,219 [-1510854294] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 13,99    OK  
+2019-06-03 16:53:10,220 [-1508536538] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 14,99    OK  
+2019-06-03 16:53:50,221 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5619.38221,N,00338.87035,W,155351.00,A,A*7D @165350
+2019-06-03 16:53:51,222 [1711976414] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 21,99    OK  
+2019-06-03 16:53:51,223 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:54:32,224 [1174081482] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ:
+2019-06-03 16:54:32,225 [1711976414] DEBUG modem.GSMModem - Modem buffer:  20,99    OK  
+2019-06-03 16:54:57,226 [-2043470846] DEBUG NmeaReaderMonitor - Setting time by GPS to 03/06/2019 15:54:58
+2019-06-03 16:54:57,227 [-2043470846] DEBUG TimeSync.NtpService - Setting time to:20190603 155458
+2019-06-03 16:55:14,228 [636608470] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 17,99    OK  
+2019-06-03 16:55:14,229 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:4
+2019-06-03 16:55:51,230 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5620.40845,N,00336.65864,W,155552.00,A,A*7B @165551
+2019-06-03 16:55:55,231 [-2042269742] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 22,99    OK  
+2019-06-03 16:55:55,232 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:56:35,233 [-2043470846] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 17,99    OK  
+2019-06-03 16:56:35,234 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:4
+2019-06-03 16:56:39,235 [-2043470846] DEBUG NmeaReaderMonitor - sats:9
+2019-06-03 16:56:43,236 [-1510854294] DEBUG NmeaReaderMonitor - sats:11
+2019-06-03 16:57:10,237 [-2045401222] DEBUG NmeaReaderMonitor - sats:8
+2019-06-03 16:57:16,238 [-2039708022] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 13,99    OK  
+2019-06-03 16:57:16,239 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:3
+2019-06-03 16:57:18,240 [-432860522] DEBUG NmeaReaderMonitor - sats:10
+2019-06-03 16:57:20,241 [107466714] DEBUG NmeaReaderMonitor - sats:12
+2019-06-03 16:57:51,242 [NMEAMonitor] DEBUG NmeaReaderMonitor - Last nmea:$GPGLL,5621.17094,N,00334.23343,W,155752.00,A,A*70 @165751
+2019-06-03 16:57:58,243 [-1505400546] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 21,99    OK  
+2019-06-03 16:57:58,244 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:58:39,245 [1174081482] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 14,99    OK  
+2019-06-03 16:58:39,246 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:3
+2019-06-03 16:59:20,247 [-1505400546] DEBUG NmeaReaderMonitor - sats:10
+2019-06-03 16:59:20,248 [1174519678] DEBUG modem.GSMModem - Modem buffer: AT+CSQ   +CSQ: 31,99    OK  
+2019-06-03 16:59:20,249 [ConnectionManager] INFO  ConnectionManager - [GPRS] - signal:5
+2019-06-03 16:59:26,250 [1174081482] DEBUG NmeaReaderMonitor - sats:12
+2019-06-03 16:59:31,251 [-2043470846] DEBUG NmeaReaderMonitor - sats:10
+2019-06-03 16:59:46,252 [-1508536538] DEBUG NmeaReaderMonitor - sats:12
+2019-06-03 16:59:49,253 [1711976414] DEBUG NmeaReaderMonitor - sats:10
+[LogEnd]

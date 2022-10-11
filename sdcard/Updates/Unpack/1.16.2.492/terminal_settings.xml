@@ -1,0 +1,31 @@
+<TERMINAL_SETTINGS>
+	<LOGGING>
+    <!--<ITSO_VALUE name="SAM_LOG" type="ASCII" value="\temp\sam_log.txt"/>
+    <ITSO_VALUE name="G2K_LOG" type="ASCII" value="\temp\card_log.txt"/>-->
+	</LOGGING>
+
+  <!-- was 4098. unicard: 138-->
+  
+	<HOPS_NODE_ID>
+		<!--<ITSO_VALUE name="IIN" type="IIN" value="633597"/>
+		<ITSO_VALUE name="OID" type="DEC" value="4098"/> 
+		<ITSO_VALUE name="ISAMS" type="DEC" value="0"/>-->
+	</HOPS_NODE_ID>
+	<!---
+		<BATCH_START at="never"/>
+		now managed by treminal
+	-->
+	<ITSO_VALUE name="CHECK_MCRN" type="FLAG" value="0"/>
+
+	
+  <!-- must be 0 for production, 1 for I2F. Only affects adding IPE. If wrong, "No valid IPE error" -->
+  <ITSO_VALUE name="DEF_IPE_KID" type="DEC" value="0"/>
+	<ITSO_VALUE name="DEF_PASS_BACK" type="DEC" value="0"/>  <!-- must be 0, as we enforce passback at application level-->
+	<ITSO_VALUE name="TOGGLE_EEI" type="DEC" value="0"/>
+
+  <ITSO_VALUE name="TTFLAG1" type="DEC" value="0"/>
+
+  <ITSO_VALUE name="PPS_7" type="DEC" value="2"/>
+  
+</TERMINAL_SETTINGS>
+

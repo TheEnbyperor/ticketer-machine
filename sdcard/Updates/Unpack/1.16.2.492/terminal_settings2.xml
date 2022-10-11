@@ -1,0 +1,87 @@
+<TERMINAL_SETTINGS>
+  <LOGGING>
+    <!-- logging sadly removed in 2.1.4 -->
+    <!--<ITSO_VALUE name="SAM_LOG" type="ASCII" value="\storage card\sam_log.txt"/>
+    <ITSO_VALUE name="G2K_LOG" type="ASCII" value="\storage card\card_log.txt"/>-->
+  </LOGGING>
+
+  <!--      <HOPS_NODE_ID>
+<ITSO_VALUE name="IIN" type="DEC" value="633597"/>
+    <ITSO_VALUE name="OID" type="DEC" value="138"/>
+    <ITSO_VALUE name="ISAMS" type="DEC" value="0"/> 
+  </HOPS_NODE_ID>-->
+  <!---
+        <BATCH_START at="never"/>
+        now managed by terminal
+    -->
+  <POLING_FLAGS>
+    <ITSO_VALUE name="CHECK_MCRN" type="FLAG" value="00"/>
+
+    <!-- must be 0 for production, 1 for I2F. Only affects adding IPE. If wrong, "No valid IPE error" -->
+    <ITSO_VALUE name="DEF_IPE_KID" type="DEC" value="0"/>
+
+    <!--checkes all ISAM keys to find latest
+    [15:17:37] stoyan: this is very stuid itso test case I do not even rember all details
+    [15:18:05] stoyan: but it kills the reader
+    [15:18:48] stoyan: or the ISAM-->
+
+    <ITSO_VALUE name="IGNORE_KID" type="DEC" value="1"/>
+    
+    <ITSO_VALUE name="DEF_PASS_BACK" type="DEC" value="00"/>
+    <ITSO_VALUE name="PASS_BACK_400" type="DEC" value="0"/>
+    <ITSO_VALUE name="TOGGLE_EEI" type="DEC" value="0"/>
+
+    <!--  This is the OID for TTRs, it is defined in ITSO in the spec, but I prfer to have it configurable, just in case-->
+    <ITSO_VALUE name="TTR_OID" type="OID16" value="1FE0"/>
+
+    <!-- 0 poll for A only, 1 poll A, then B, 2 pol B then A, 3 poll for B only-->
+    <ITSO_VALUE name="ORDER" type="DEC" value="1"/>
+
+    <!-- 0 no check use first detcted, 1 check type A for mutiple cards, 2 check all-->
+    <!-- Checking for more than one card in field is really bad idea for plenty of reasons, but itso require this. Setting the flag will disable the check -->
+    <ITSO_VALUE name="MUTLI_CHECK" type="DEC" value="1"/>
+
+
+    <!-- <ITSO_VALUE name="TYPE_A_CNFG" type="HEX" value="RRVV"/>
+            register value to set
+        <ITSO_VALUE name="TYPE_B_CNFG" type="HEX" value="19711C50"/>
+        
+        <ITSO_VALUE name="TYPE_B_CNFG" type="HEX" value="19731C50"/>         -->
+
+    <!-- 
+        0 treat as CMD2 first, 2 try as CMD 1/3 first
+         -->
+    <ITSO_VALUE name="CMD2_1" type="DEC" value="0"/>
+    <!-- 
+        0 treat as CMD8 first, 2 try as CMD 2 first
+         -->
+    <ITSO_VALUE name="CMD2_8" type="DEC" value="02"/>
+
+    <!-- 
+            0 - check for card without reste, 1 with reset
+            This means do RfReset before any check for card internally
+         -->
+    <ITSO_VALUE name="CFC_RESET" type="DEC" value="1"/>
+
+
+    <ITSO_VALUE name="CMD_2_PPS" type="DEC" value="2"/>
+    <ITSO_VALUE name="CMD_7_PPS" type="DEC" value="2"/>
+
+    <!-- exp time in minutes where needed to be set by terminal number of minutes-->
+    <!-- this is only applicable for typ 27 expiry time -->
+    <ITSO_VALUE name="EXP_TIME_T" type="DEC" value="25"/>
+
+
+    <ITSO_VALUE name="TTFLAG1" type="DEC" value="0"/>
+    
+  </POLING_FLAGS>
+  
+  <FAKE_TRANSACTION>
+    <ITSO_VALUE name="FAKE_MID" type="HEX" value="00045779E1BE2580"/>
+    <ITSO_VALUE name="FAKE_RAND" type="HEX" value="2E243D6AEBC5CF70"/>
+    <ITSO_VALUE name="FAKE_SHELL" type="HEX" value="1811633597007100000258070401000040100807000015E9"/>
+    <ITSO_VALUE name="FAKE_FVC" type="HEX1" value="07"/>
+    <ITSO_VALUE name="FAKE_KSC" type="HEX1" value="04"/>
+  </FAKE_TRANSACTION>
+</TERMINAL_SETTINGS>
+

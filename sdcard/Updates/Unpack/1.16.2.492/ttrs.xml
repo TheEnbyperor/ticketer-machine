@@ -1,0 +1,107 @@
+<DF_TTR>
+		<!-- TTR INST ID DATA -->
+    <TTRData name="0000">
+        <ITSO_VALUE name="KID" type="HEX1" value="01" bitsize="4"/>
+        <ITSO_VALUE name="INP" type="HEX1" value="00" bitsize="4"/>
+        <ITSO_VALUE name="ISAMID" type="ISAMID" value="05180137" bitsize="32"/>
+        <ITSO_VALUE name="ISAMS" type="HEX3" value="0000D4" bitsize="24"/>
+    </TTRData>
+    <TTRData name="0001">
+      <ITSO_VALUE name="TTLength" type="HEX1" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="01" bitsize="4"/>
+      <ITSO_VALUE name="TTBitMap2" type="HEX2" value="0012" bitsize="12"/>
+      <ITSO_VALUE name="TTTransactionType" type="HEX1" value="10" bitsize="4"/>
+      <ITSO_VALUE name="DateTimeStamp" type="DTSH" value="220820121000" bitsize="24"/>
+<!--
+      <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaid" type="VALI" value="0014" bitsize="16"/>
+      <ITSO_VALUE name="RFU" type="HEX1" value="00" bitsize="3"/>
+      <ITSO_VALUE name="NoFareCharged" type="FLAG" value="01" bitsize="1"/>
+      <ITSO_VALUE name="AmountPaidVATSalesTax" type="VAT" value="0005" bitsize="12"/>
+      <ITSO_VALUE name="DestinationTT" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="RFU2" type="BMP" value="00" bitsize="3"/>
+      <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" bitsize="5"/>
+      <ITSO_VALUE name="OriginLocation" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="RoutingCode" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="IIN" type="IIN" value="633597" bitsize="24"/>
+      <ITSO_VALUE name="UserDefined" type="HEX" value="633597" bitsize="24"/>
+-->
+    </TTRData>
+    <TTRData name="0002">
+      <ITSO_VALUE name="TTLength" type="HEX1" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="02" bitsize="4"/>
+      <ITSO_VALUE name="TTBitMap2" type="HEX2" value="0012" bitsize="12"/>
+      <ITSO_VALUE name="TTTransactionType" type="HEX1" value="10" bitsize="4"/>
+      <ITSO_VALUE name="DateTimeStamp" type="DTSH" value="220820121000" bitsize="24"/>
+      <ITSO_VALUE name="OriginLocation" type="LOC2" value="D0060000202020" bitsize="56"/>
+<!--
+      <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaid" type="VALI" value="0014" bitsize="16"/>
+      <ITSO_VALUE name="CompanionTravelled" type="FLAG" value="00" bitsize="1"/>
+      <ITSO_VALUE name="ReturnTicket" type="FLAG" value="00" bitsize="1"/>
+      <ITSO_VALUE name="RFU" type="HEX1" value="00" bitsize="1"/>
+      <ITSO_VALUE name="NoFareCharged" type="FLAG" value="01" bitsize="1"/>
+      <ITSO_VALUE name="AmountPaidVATSalesTax" type="VAT" value="0005" bitsize="12"/>
+      <ITSO_VALUE name="DestinationTT" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="RFU2" type="HEX1" value="00" bitsize="3"/>
+      <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" bitsize="5"/>
+      <ITSO_VALUE name="OriginLocation" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="RoutingCode" type="LOC2" value="D0060000202020" bitsize="56"/>
+      <ITSO_VALUE name="IIN" type="IIN" value="633597" bitsize="24"/>
+      <ITSO_VALUE name="UserDefined" type="HEX" value="633597" bitsize="24"/>
+-->
+    </TTRData>
+    <TTRData name="0004">
+      <ITSO_VALUE name="TTLength" type="HEX1" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" bitsize="6"/>
+      <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="04" bitsize="4"/>
+      <ITSO_VALUE name="TTBitMap2" type="HEX2" value="0012" bitsize="12"/>
+      <ITSO_VALUE name="TTTransactionType" type="HEX1" value="10" bitsize="4"/>
+      <ITSO_VALUE name="DateTimeStamp" type="DTSH" value="220820121000" bitsize="24"/>
+<!--
+      <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="01" bitsize="4"/>
+      <ITSO_VALUE name="AmountPaid" type="VALI" value="0014" bitsize="16"/>
+      <ITSO_VALUE name="CompanionTravelled" type="HEX1" value="01" bitsize="1"/>
+      <ITSO_VALUE name="ReturnTicket" type="FLAG" value="00" bitsize="1"/>
+      <ITSO_VALUE name="RFU" type="HEX1" value="00" bitsize="1"/>
+      <ITSO_VALUE name="NoFareCharged" type="FLAG" value="01" bitsize="1"/>
+      <ITSO_VALUE name="AmountPaidVATSalesTax" type="VAT" value="0005" bitsize="12"/>
+
+      <ITSO_VALUE name="DestinationTT" type="LOC2" value="D0060000202020" bitsize="56"/>
+
+      <ITSO_VALUE name="RFU2" type="HEX1" value="00" bitsize="3"/>
+      <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" bitsize="5"/>
+
+      <ITSO_VALUE name="OriginLocation" type="LOC2" value="D0060000202020" bitsize="56"/>
+      
+      <ITSO_VALUE name="RoutingCode" type="LOC2" value="D0060000202020" bitsize="56"/>
+
+      <ITSO_VALUE name="IIN" type="IIN" value="633597" bitsize="24"/>
+
+      <ITSO_VALUE name="IPEID1" type="HEX1" value="01" bitsize="5"/>
+      <ITSO_VALUE name="IPEID2" type="HEX1" value="02" bitsize="5"/>
+      <ITSO_VALUE name="IPEID3" type="HEX1" value="03" bitsize="5"/>
+      <ITSO_VALUE name="IPEID4" type="HEX1" value="04" bitsize="5"/>
+      <ITSO_VALUE name="CIPEFlags" type="BMP" value="04" bitsize="5"/>
+
+      <ITSO_VALUE name="ENTRY_TT_IPE_ISAMID" type="ISAMID" value="05280276" bitsize="32"/>
+      <ITSO_VALUE name="ENTRY_TT_IPE_SAMSequenceNumber" type="HEX3" value="000015" bitsize="24"/>
+      <ITSO_VALUE name="ENTRY_DateTimeStamp" type="DTSH" value="120920121000" bitsize="24"/>
+
+      <ITSO_VALUE name="ENTRY_OID" type="HEX2" value="0000" bitsize="16"/>
+      <ITSO_VALUE name="ENTRY_IIN_Index" type="HEX1" value="00" bitsize="8"/>
+
+      <ITSO_VALUE name="UserDefined" type="HEX" value="633597" bitsize="24"/>
+-->
+    </TTRData>
+
+    <TTRData name="1F1F">
+        <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="04" />
+		</TTRData>
+</DF_TTR>
+

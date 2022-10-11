@@ -1,0 +1,1463 @@
+<!--- 
+    remarks:
+    1) StartDateAutoTopUp used instead of StartDateStr
+    2) UD types replaced with HexX (HEX,HEX1,HEX2)
+-->
+<DF_CNF>
+    <MSG name="0400-2">
+        <ITSO_VALUE name="ExceptionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="POSTType" type="HEX2" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0313-2">
+        <ITSO_VALUE name="CyclicLogStatusCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0312-3">
+        <ITSO_VALUE name="ActionListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ActionListOriginator" type="OID16" value="0000" />
+        <ITSO_VALUE name="OriginalActionListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="0312ActionTaken" type="HEX1" value="00" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00"/>
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0312-2">
+        <ITSO_VALUE name="ActionListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ActionListOriginator" type="OID16" value="0000" />
+        <ITSO_VALUE name="OriginalActionListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="0312ActionTaken" type="HEX1" value="00" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00"/>
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0302-2">
+        <ITSO_VALUE name="DepositType" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0302-3">
+        <ITSO_VALUE name="DepositType" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0303-2">
+        <ITSO_VALUE name="DepositType" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0303-3">
+        <ITSO_VALUE name="DepositType" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0300-2">
+        <ITSO_VALUE name="AmountPaid" type="VALI" value="0000" />
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="StoredUsesRefunded" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="StoredUses" type="HEX1" value="00" />
+        <ITSO_VALUE name="TicketNumber" type="HEX" value="000000000000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0300-3">
+        <ITSO_VALUE name="AmountPaid" type="VALI" value="0000" />
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="StoredUsesRefunded" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="StoredUses" type="HEX1" value="00" />
+        <ITSO_VALUE name="TicketNumber" type="HEX" value="000000000000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0301-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="Amount" type="VALI" value="0000" />
+        <ITSO_VALUE name="AmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TicketNumber" type="HEX" value="000000000000" />
+        <ITSO_VALUE name="ReasonCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="VATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0301-3">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="Amount" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="AmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TicketNumber" type="HEX" value="000000000000" />
+        <ITSO_VALUE name="ReasonCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="VATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+
+    
+    <MSG name="0210-2">
+        <ITSO_VALUE name="TTLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" />
+        <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap2" type="BMP" value="00" />
+        <ITSO_VALUE name="TTTransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+<!--
+        <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="AmountPaid" type="VALI" value="0000" />
+        <ITSO_VALUE name="NoFareCharged" type="BMP" value="00" />
+        <ITSO_VALUE name="AmountPaidVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="DestinationTT" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" />
+        <ITSO_VALUE name="OriginLocation" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="RoutingCode" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IIN" type="IIN" value="00" />
+        <ITSO_VALUE name="UserDefinedSize" type="HEX1" value="00" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="01" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="22" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+-->
+    </MSG>
+    <MSG name="0210-3">
+        <ITSO_VALUE name="TTLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" />
+        <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap2" type="BMP" value="00" />
+        <ITSO_VALUE name="TTTransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+<!--
+
+        <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="AmountPaid" type="VALI" value="0000" />
+        <ITSO_VALUE name="CompanionTravelled" type="FLAG" value="00" />
+        <ITSO_VALUE name="ReturnTicket" type="FLAG" value="00" />
+        <ITSO_VALUE name="RFU" type="FLAG" value="00" />
+        <ITSO_VALUE name="NoFareCharged" type="BMP" value="00" />
+        <ITSO_VALUE name="AmountPaidVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="DestinationTT" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" />
+        <ITSO_VALUE name="OriginLocation" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="RoutingCode" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IIN" type="IIN" value="00" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+-->
+    </MSG>
+    <MSG name="0210-4">
+        <ITSO_VALUE name="TTLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" />
+        <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap2" type="BMP" value="00" />
+        <ITSO_VALUE name="TTTransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+<!--
+        <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="AmountPaid" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CompanionTravelled" type="FLAG" value="00" />
+        <ITSO_VALUE name="ReturnTicket" type="FLAG" value="00" />
+        <ITSO_VALUE name="RFU" type="FLAG" value="00" />
+        <ITSO_VALUE name="NoFareCharged" type="BMP" value="00" />
+        <ITSO_VALUE name="AmountPaidVATSalesTax" type="HEX2" value="0000" />
+        <ITSO_VALUE name="DestinationTT" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" />
+        <ITSO_VALUE name="OriginLocation" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="RoutingCode" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IIN" type="IIN" value="00" />
+        <ITSO_VALUE name="IPEID1" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID2" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID3" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID4" type="HEX1" value="00" />
+        <ITSO_VALUE name="CIPEFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="UserDefinedSize" type="HEX1" value="00" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+-->
+    </MSG>
+    <MSG name="0210-5">
+        <ITSO_VALUE name="TTLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap1" type="BMP" value="00" />
+        <ITSO_VALUE name="TTFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TTBitMap2" type="BMP" value="00" />
+        <ITSO_VALUE name="TTTransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+<!--
+
+        <ITSO_VALUE name="AmountPaidMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="AmountPaidCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="AmountPaid" type="VALI2" value="000000" />
+        <ITSO_VALUE name="CompanionTravelled" type="FLAG" value="00" />
+        <ITSO_VALUE name="ReturnTicket" type="FLAG" value="00" />
+        <ITSO_VALUE name="RFU" type="FLAG" value="00" />
+        <ITSO_VALUE name="NoFareCharged" type="BMP" value="00" />
+        <ITSO_VALUE name="AmountPaidVATSalesTax" type="HEX2" value="0000" />
+        <ITSO_VALUE name="DestinationTT" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IPEPointer" type="HEX1" value="00" />
+        <ITSO_VALUE name="OriginLocation" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="RoutingCode" type="LOC2" value="00000000000000" />
+        <ITSO_VALUE name="IIN" type="IIN" value="00" />
+        <ITSO_VALUE name="CIPE1_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="CIPE1_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="CIPE2_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="CIPE2_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="CIPE3_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="CIPE3_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="CIPE4_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="CIPE4_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="CIPEFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="ENTRY_IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="ENTRY_IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ENTRY_DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ENTRY_OID" type="OID16" value="0000" />
+        <ITSO_VALUE name="ENTRY_IIN_Index" type="HEX1" value="00" />
+        <ITSO_VALUE name="UserDefinedSize" type="HEX1" value="00" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+-->
+    </MSG>
+    <MSG name="0209-4">
+        <ITSO_VALUE name="AmountPaid" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="Location" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="Destination" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ConcessionaryAuthority" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="RemainingUses" type="HEX1" value="00" />
+        <ITSO_VALUE name="ConcessionaryPassIssuerCostCentre" type="HEX2" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="ServiceOperatorID" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ServiceNumber" type="HEX" value="00000000000000000000" />
+        <ITSO_VALUE name="TripNumberOrTrainNumber" type="HEX" value="00000000000000000000" />
+        <ITSO_VALUE name="ReimbursementDataFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="SupplementaryData" type="TLV" value="E000" />
+        <ITSO_VALUE name="ENTRY_TT_IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="ENTRY_TT_IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ENTRY_DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ENTRY_OID" type="OID16" value="0000" />
+        <ITSO_VALUE name="ENTRY_IIN_Index" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0209-3">
+        <ITSO_VALUE name="AmountPaid" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="Location" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="Destination" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ConcessionaryAuthority" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="RemainingUses" type="HEX1" value="00" />
+        <ITSO_VALUE name="ConcessionaryPassIssuerCostCentre" type="HEX2" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+    
+        <ITSO_VALUE name="ServiceOperatorID" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ServiceNumber" type="HEX" value="00000000000000000000" />
+        <ITSO_VALUE name="TripNumberOrTrainNumber" type="HEX" value="00000000000000000000" />
+        <ITSO_VALUE name="ReimbursementDataFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="SupplementaryData" type="TLV" value="E000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0209-2">
+        <ITSO_VALUE name="AmountPaid" type="VALI" value="0000" />
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="Location" type="LOC2" value="CA123456780000" />
+        <ITSO_VALUE name="Destination" type="LOC2" value="CA123456780000" />
+        <ITSO_VALUE name="ConcessionaryAuthority" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="RemainingUses" type="HEX1" value="00" />
+        <ITSO_VALUE name="ConcessionaryPassIssuerCostCentre" type="HEX2" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0201-2">
+        <ITSO_VALUE name="Amount" type="VALI" value="0000" />
+        <ITSO_VALUE name="AmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="HolderTitle" type="ASCII" value="    " />
+        <ITSO_VALUE name="HolderSurname" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderOtherNames" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress1" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress2" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress3" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress4" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderPostcode" type="ASCII" value="          " />
+        <ITSO_VALUE name="HolderPhoneDay" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneHome" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneMobile" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderEmail" type="ASCII" value="                                        " />
+        <ITSO_VALUE name="IPE-TYP" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ConcessionaryPassIssuerCostCentre" type="HEX2" value="0000" />
+        <ITSO_VALUE name="IDFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="RoundingFlagsEnable" type="BMP" value="00" />
+        <ITSO_VALUE name="PassbackTime" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateOfBirth" type="DOB" value="00000000" />
+        <ITSO_VALUE name="Language" type="HEX1" value="00" />
+        <ITSO_VALUE name="HolderID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="RoundingFlag" type="BMP" value="00" />
+        <ITSO_VALUE name="RoundingValueFlag" type="BMP" value="00" />
+        <ITSO_VALUE name="EntitlementExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="ShellDepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="ShellDepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ShellDepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="ShellDeposit" type="VALI" value="0000" />
+        <ITSO_VALUE name="EntitlementCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="ConcessionaryClass" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="SAMSequenceNumber" type="HEX3" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="SecondaryHolderID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ForenameLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="Forename" type="ASCII" value="" />
+        <ITSO_VALUE name="SurnameLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="Surname" type="ASCII" value="" />
+        <ITSO_VALUE name="HalfDayOfWeek" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ValidAtOrFrom" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ValidTo" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0200-2">
+        <ITSO_VALUE name="Amount" type="VALI" value="0000" />
+        <ITSO_VALUE name="AmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="HolderTitle" type="ASCII" value="    " />
+        <ITSO_VALUE name="HolderSurname" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderOtherNames" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress1" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress2" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress3" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderAddress4" type="ASCII" value="                              " />
+        <ITSO_VALUE name="HolderPostcode" type="ASCII" value="          " />
+        <ITSO_VALUE name="HolderPhoneDay" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneHome" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneMobile" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderEmail" type="ASCII" value="                                        " />
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ConcessionaryPassIssuerCostCentre" type="HEX2" value="0000" />
+        <ITSO_VALUE name="IDFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="RoundingFlagsEnable" type="BMP" value="00" />
+        <ITSO_VALUE name="PassbackTime" type="HEX1" value="00" />
+        <ITSO_VALUE name="DateOfBirth" type="DOB" value="00000000" />
+        <ITSO_VALUE name="Language" type="HEX1" value="00" />
+        <ITSO_VALUE name="HolderID" type="HEX1" value="00" />
+        <ITSO_VALUE name="RoundingFlag" type="BMP" value="00" />
+        <ITSO_VALUE name="RoundingValueFlag" type="BMP" value="00" />
+        <ITSO_VALUE name="EntitlementExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="ShellDepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="ShellDepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ShellDepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="ShellDeposit" type="VALI" value="0000" />
+        <ITSO_VALUE name="EntitlementCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="ConcessionaryClass" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="SAMSequenceNumber" type="HEX3" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="SecondaryHolderID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ForenameLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="Forename" type="ASCII" value="" />
+        <ITSO_VALUE name="SurnameLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="Surname" type="ASCII" value="" />
+        <ITSO_VALUE name="HalfDayOfWeek" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ValidAtOrFrom" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ValidTo" type="LOC1" value="FF00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0106-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="HEX2" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxValue2" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxNegativeAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateAutoTopUp" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0100-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0100-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <!-- the rest are added dynamicly -->
+    </MSG>
+    <MSG name="0101-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0101-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <!-- the rest are added dynamicly -->
+    </MSG>
+    <MSG name="0102-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+		<ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0102-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <!-- the rest are added dynamicly -->
+    </MSG>
+    <MSG name="0103-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="RFU1" type="HEX2" value="0000" />
+        <ITSO_VALUE name="RFU2" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0103-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="RFU1" type="HEX2" value="0000" />
+        <ITSO_VALUE name="RFU2" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <!-- the rest are added dynamicly -->
+    </MSG>
+    <MSG name="0107-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0107-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <!-- the rest are added dynamicly -->
+    </MSG>
+     <MSG name="0108-2">
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0108-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+    </MSG>
+     <MSG name="0109-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+     <MSG name="0109-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+    </MSG>
+    <MSG name="0009-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0008-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0007-2">
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0006-2">
+        <ITSO_VALUE name="DirectoryEntryNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="DirectoryImageLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="DirectoryImage" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0005-2">
+        <ITSO_VALUE name="DirectoryEntryNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="DirectoryImageLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="DirectoryImage" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0110-2">
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="LastResetDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TYP5ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="CountOfTransactions" type="HEX1" value="00" />
+        <ITSO_VALUE name="CountOfJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG> 
+        <MSG name="010D-2">
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="CumulativeAmount" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+        <MSG name="010D-3">
+        <ITSO_VALUE name="MessageBitMap " type="BMP" value="00" />
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="CumulativeAmount" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>    
+    <MSG name="0110-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="POSTAmountCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="LastResetDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="TYP5ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="CountOfTransactions" type="HEX1" value="00" />
+        <ITSO_VALUE name="CountOfJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>    
+    <MSG name="010B-2">
+        <ITSO_VALUE name="BankName" type="ASCII" value="Bank                                    "/>
+        <ITSO_VALUE name="BankACNumber" type="HEX" value="01000000000000000000000000000000" />
+        <ITSO_VALUE name="BankCardExpiryDate" type="HEX" value ="01011997"/>
+        <ITSO_VALUE name="BankCardStartDate" type="HEX" value ="01011997"/>
+        <ITSO_VALUE name="IssueNumber" type="HEX" value ="0000"/>
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>  
+    <MSG name="010C-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value ="0000"/>
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>    
+    <MSG name="0105-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value ="0000"/>
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG> 
+    <MSG name="0305-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value ="0000"/>
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>        
+    <MSG name="0311-2">
+        <ITSO_VALUE name="HotListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="HotType" type="HEX1" value="00" />
+        <ITSO_VALUE name="HotListOriginator" type="OID16" value="0000" />
+        <ITSO_VALUE name="OriginalHotListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="0311ActionTaken" type="HEX1" value="00" />
+        <ITSO_VALUE name="0311CustomerMediaDisposition" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0311-3">
+        <ITSO_VALUE name="HotListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="HotType" type="HEX1" value="00" />
+        <ITSO_VALUE name="HotListOriginator" type="OID16" value="0000" />
+        <ITSO_VALUE name="OriginalHotListIdentifier" type="HEX2" value="0000" />
+        <ITSO_VALUE name="0311ActionTaken" type="HEX1" value="00" />
+        <ITSO_VALUE name="0311CustomerMediaDisposition" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0314-2">
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+		<ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00"/>
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0315-2">
+        <ITSO_VALUE name="0315CustomerMediaDisposition" type="HEX1" value="00" />
+        <ITSO_VALUE name="0315ReasonCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="CreatingISAMID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="CreatingISAMSeq" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0120-2">
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP2Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxValue2" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxNegativeAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateAutoTopUp" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0121-2">
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP2Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxValue2" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxNegativeAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateAutoTopUp" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0207-2">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0207-3">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0207-4">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0207-5">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0208-2">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0208-3">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI" value="0000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0208-4">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="HEX1" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0208-5">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="NormalPrice" type="VALI2" value="00000000" />
+        <ITSO_VALUE name="CurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="MachineNumber" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="TransactionFlags" type="HEX1" value="00" />
+        <ITSO_VALUE name="MessageBitMap" type="HEX1" value="00" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+    </MSG>
+    <MSG name="0104-2">
+        <ITSO_VALUE name="BankName" type="ASCII" value="                                        "/>
+        <ITSO_VALUE name="BankACNumber" type="HEX" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="BankCardExpiryDate" type="HEX" value ="00000000"/>
+        <ITSO_VALUE name="BankCardStartDate" type="HEX" value ="00000000"/>
+        <ITSO_VALUE name="IssueNumber" type="HEX" value ="0000"/>
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+		<ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0304-2">
+        <ITSO_VALUE name="BankName" type="ASCII" value="                                        "/>
+        <ITSO_VALUE name="BankACNumber" type="HEX" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ExpiryDate" type="HEX" value ="00000000"/>
+        <ITSO_VALUE name="StartDate" type="HEX" value ="00000000"/>
+        <ITSO_VALUE name="IssueNumber" type="HEX" value ="0000"/>
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="AutoRenewAmount" type="HEX2" value="0000" />
+        <ITSO_VALUE name="AutoRenewThreshold" type="HEX2" value="0000" />
+        <ITSO_VALUE name="AutoRenewValue" type="VALI" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0105-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0305-2">
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+    </MSG>
+    <MSG name="0000">
+        <ITSO_VALUE name="RecordFormatRevision" type="HEX1" value="02" />
+        <ITSO_VALUE name="TransactionDateTime" type="DTS" value="000000" />
+        <ITSO_VALUE name="TransactionInformation" type="HEX1" value="00" />
+        <ITSO_VALUE name="StaffID" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="SupplementalInformation" type="HEX1" value="00" />
+        <ITSO_VALUE name="FormatVersionCode" type="HEX1" value="00" />
+        <ITSO_VALUE name="KeyStrategyVersion" type="HEX1" value="00" />
+        <ITSO_VALUE name="KeyVersion" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEID" type="IPEDM" value="00000000000000" />
+        <ITSO_VALUE name="Shell_IterationNumber" type="HEX1" value="00" />
+    </MSG>
+    <MSG name="0001-2">
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="EXP" type="DATE" value="0000" />
+        <ITSO_VALUE name="CardReferenceNumber" type="HEX" value="00000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+      </MSG>
+  <MSG name="0001-3">
+    <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+    <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+    <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+    <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+    <ITSO_VALUE name="MID" type="HEX" value="0000000000000000" />
+    <ITSO_VALUE name="LEN_Shell_Data_Group" type="HEX1" value="00" />
+    <ITSO_VALUE name="ITSO_Shell_Environment_Data_Group" type="HEX" value="00" />
+    <ITSO_VALUE name="LEN_DIR_Data_Group" type="HEX1" value="00" />
+    <ITSO_VALUE name="Directory_Data_Group" type="HEX" value="00" />
+    <ITSO_VALUE name="Media_Reference_Number" type="HEX" value="00000000000000000000" />
+    <ITSO_VALUE name="Anti_Tear_Type" type="HEX1" value="00" />
+    <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+  </MSG>
+    <!-- messages version -->
+    <MSG name="0209">
+        <!--
+        <ITSO_VALUE name="RecordFormatRevision" type="HEX1" value="03" />
+            -->
+        </MSG>
+    <MSG name="0120-3">
+        <ITSO_VALUE name="MessageBitMap" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP2Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxValue2" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxNegativeAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateAutoTopUp" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+    </MSG>
+    <MSG name="0121-3">
+        <ITSO_VALUE name="MessageBitMap" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP2Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="Threshold" type="VALI" value="0000" />
+        <ITSO_VALUE name="TopUpAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxValue2" type="VALI" value="0000" />
+        <ITSO_VALUE name="MaxNegativeAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateAutoTopUp" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="Value" type="VALS" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP2ValueFlags" type="BMP" value="00" />
+    </MSG>
+        <MSG name="0122-2">
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP4Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="MaxValue4" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateCTA" type="DATE" value="0000" />
+        <ITSO_VALUE name="EndDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP4ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />        
+    </MSG>
+        <MSG name="0123-2">
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP4Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="MaxValue4" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateCTA" type="DATE" value="0000" />
+        <ITSO_VALUE name="EndDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP4ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />        
+    </MSG>    
+        <MSG name="0122-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />        
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP4Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="MaxValue4" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateCTA" type="DATE" value="0000" />
+        <ITSO_VALUE name="EndDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP4ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />        
+    </MSG>  
+<MSG name="0123-3">
+        <ITSO_VALUE name="MessageBitMap" type="BMP" value="00" />        
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TYP4Flags" type="BMP" value="00" />
+        <ITSO_VALUE name="MaxValue4" type="VALI" value="0000" />
+        <ITSO_VALUE name="DepositAmount" type="VALI" value="0000" />
+        <ITSO_VALUE name="StartDateCTA" type="DATE" value="0000" />
+        <ITSO_VALUE name="EndDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="DepositMethodOfPayment" type="MOP" value="00" />
+        <ITSO_VALUE name="DepositCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="DepositVATSalesTax" type="VAT" value="0000" />
+        <ITSO_VALUE name="VGLength" type="HEX1" value="00" />
+        <ITSO_VALUE name="VGBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="VGFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="DateTimeStamp" type="DTS" value="000000" />
+        <ITSO_VALUE name="ISAMIDModifier" type="HEX4" value="00000000" />
+        <ITSO_VALUE name="ActionSequenceNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="ValueCurrencyCode" type="VALC" value="00" />
+        <ITSO_VALUE name="CountJourneyLegs" type="HEX1" value="00" />
+        <ITSO_VALUE name="CumulativeFare" type="VALI" value="0000" />
+        <ITSO_VALUE name="TYP4ValueFlags" type="BMP" value="00" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />        
+    </MSG>        
+    <MSG name="0203-2">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="POSTDefinedData" type="HEX" value="0000" />
+        <ITSO_VALUE name="TransactionAmountOfPoints" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="LoyaltyPoints" type="HEX3" value="000000" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" /> 
+    </MSG>  
+    <MSG name="0204-2">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="POSTDefinedData" type="HEX" value="00000000" />
+        <ITSO_VALUE name="TransactionAmountOfPoints" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="LoyaltyPoints" type="HEX3" value="000000" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" /> 
+    </MSG>  
+        <MSG name="0205-2">
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="POSTDefinedData" type="HEX" value="00000000" />
+        <ITSO_VALUE name="TransactionAmountOfPoints" type="HEX2" value="0000" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="TransactionSequenceNumber" type="TSN" value="0000" />
+        <ITSO_VALUE name="TransactionType" type="HEX1" value="00" />
+        <ITSO_VALUE name="LoyaltyPoints" type="HEX3" value="000000" />
+        <ITSO_VALUE name="UserDefined" type="HEX" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" /> 
+    </MSG>
+<MSG name="020B-2">
+        <ITSO_VALUE name="HolderTitle" type="ASCII" value="    " />
+        <ITSO_VALUE name="HolderName" type="ASCII" value="                                                  " />
+        <ITSO_VALUE name="HolderAddress" type="ASCII" value="                                                                                                    " />
+        <ITSO_VALUE name="HolderPostcode" type="ASCII" value="        " />
+        <ITSO_VALUE name="HolderPhoneDay" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneHome" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderEmail" type="ASCII" value="                                        " />
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />   
+    </MSG>    
+<MSG name="0206-2">
+        <ITSO_VALUE name="HolderTitle" type="ASCII" value="    " />
+        <ITSO_VALUE name="HolderName" type="ASCII" value="                                                  " />
+        <ITSO_VALUE name="HolderAddress" type="ASCII" value="                                                                                                    " />
+        <ITSO_VALUE name="HolderPostcode" type="ASCII" value="        " />
+        <ITSO_VALUE name="HolderPhoneDay" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderPhoneHome" type="ASCII" value="                    " />
+        <ITSO_VALUE name="HolderEmail" type="ASCII" value="                                        " />
+        <ITSO_VALUE name="IPE-TYP" type="TYP" value="00"/>
+        <ITSO_VALUE name="IPEExpiryDate" type="DATE" value="0000" />
+        <ITSO_VALUE name="IPELength" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPEBitMap" type="BMP" value="00" />
+        <ITSO_VALUE name="IPEFormatRevision" type="HEX1" value="00" />
+        <ITSO_VALUE name="RemoveDate" type="RDATE" value="00" />
+        <ITSO_VALUE name="ProductRetailer" type="OID16" value="0000" />
+        <ITSO_VALUE name="IPE_IterationNumber" type="HEX1" value="00" />
+        <ITSO_VALUE name="IPE_ISAMID" type="ISAMID" value="00000000" />
+        <ITSO_VALUE name="IPE_SAMSequenceNumber" type="HEX3" value="000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberNonEncrypted" type="ISRN" value="00000000000000000000000000000000" />
+        <ITSO_VALUE name="ITSOShellReferenceNumberEncrypted" type="ISRN" value="00000000000000000000000000000000" />   
+    </MSG>    
+    <MSG name="0807-2">
+        <ITSO_VALUE name="AdditionalShellData" type="HEX" value="E000" />
+    </MSG>
+</DF_CNF>
+

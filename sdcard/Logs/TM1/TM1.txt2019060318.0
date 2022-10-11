@@ -1,0 +1,1027 @@
+[LogStart]
+2019-06-03 18:00:01,189 [CS] DEBUG CS - Post msg:05e1e7f4-feac-4320-a812-c8fc25d4b989 IncomingGetPubs <get pubs="9:EZzY0V8FyUei-c-CaJpWdw,20:T... (351)
+2019-06-03 18:00:03,190 [CS] DEBUG CS - Post in 2.13s
+2019-06-03 18:00:03,191 [CS] DEBUG CS - Post 05e1e7f4-feac-4320-a812-c8fc25d4b989:200(0)
+2019-06-03 18:00:04,192 [CS] DEBUG CS - END batch:3
+2019-06-03 18:00:10,193 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0dff4594-07fb-4f6f-bac7-256c25c2c864 (The Feus), Rad=50, Enter; 
+2019-06-03 18:00:10,194 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:0dff4594-07fb-4f6f-bac7-256c25c2c864
+2019-06-03 18:00:10,195 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:21
+2019-06-03 18:00:10,196 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:0dff4594-07fb-4f6f-bac7-256c25c2c864(Ruthven Park)
+2019-06-03 18:00:10,197 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:00:10,198 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:00:10,199 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to The Feus, approaching: True
+2019-06-03 18:00:10,200 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 0dff4594-07fb-4f6f-bac7-256c25c2c864 (56.2998625,-3.694918)
+2019-06-03 18:00:10,201 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:00:10,202 [-1510889830] DEBUG CS - Post RT b5f3cdab-c50a-4b1e-8e55-501b20c457a7 IncomingLocation <inf loc="10aY0wQaY0wS256299862003694918... (200)
+2019-06-03 18:00:12,203 [-1510889830] DEBUG CS - Post RT in 1.97s (147.34b/s)
+2019-06-03 18:00:35,204 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0dff4594-07fb-4f6f-bac7-256c25c2c864 (The Feus), Rad=50, Leave; 
+2019-06-03 18:00:35,205 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:0dff4594-07fb-4f6f-bac7-256c25c2c864, Leave
+2019-06-03 18:00:35,206 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:00:35,207 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Castle Wynd, approaching: False
+2019-06-03 18:00:35,208 [-2036600870] DEBUG CS - Post RT 7e7efbd0-d726-48c1-9a54-b118ec554983 IncomingLocation <inf loc="11aY0wpaY0wq256299487003696354... (200)
+2019-06-03 18:00:35,209 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778865152
+2019-06-03 18:00:35,210 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15138816
+2019-06-03 18:00:35,211 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2324196
+2019-06-03 18:00:35,212 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:158
+2019-06-03 18:00:35,213 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:00:35,214 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="23" />  <sc scans="8" wcnt="13" scandur="5615" wdur="6062" />  <conn uptime="6555" pend="0" />  <sys uptime="6658" />  <print p0="1" />  <db /></session>
+2019-06-03 18:00:37,215 [-2036600870] DEBUG CS - Post RT in 2.21s (131.32b/s)
+2019-06-03 18:00:51,216 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0d0113a2-7301-45a2-9203-e2557649c701 (Abbey Road), Rad=50, Enter; 
+2019-06-03 18:00:51,217 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:0d0113a2-7301-45a2-9203-e2557649c701
+2019-06-03 18:00:51,218 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:20
+2019-06-03 18:00:51,219 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:0d0113a2-7301-45a2-9203-e2557649c701(Ruthven Park)
+2019-06-03 18:00:51,220 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:00:51,221 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:00:51,222 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Abbey Road, approaching: True
+2019-06-03 18:00:51,223 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 0d0113a2-7301-45a2-9203-e2557649c701 (56.2986866666667,-3.69862533333333)
+2019-06-03 18:00:51,224 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:00:51,225 [-2036600870] DEBUG CS - Post RT 04e9eade-d1af-4df5-988c-9f1b5f41afe3 IncomingLocation <inf loc="10aY0x3aY0x4256298686003698625... (200)
+2019-06-03 18:00:51,226 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:00:53,227 [connection_03151122_564659_comms.ticketer.org.uk] DEBUG HttpClient - 03151122_564659_comms.ticketer.org.uk connected, 185.10.228.61:80
+2019-06-03 18:00:55,228 [-2036600870] DEBUG CS - Post RT in 3.55s (81.74b/s)
+2019-06-03 18:01:11,229 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:01:17,230 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:01:18,231 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0d0113a2-7301-45a2-9203-e2557649c701 (Abbey Road), Rad=50, Leave; 
+2019-06-03 18:01:18,232 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:0d0113a2-7301-45a2-9203-e2557649c701, Leave
+2019-06-03 18:01:18,233 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:01:18,234 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to The Feus, approaching: False
+2019-06-03 18:01:18,235 [1174080454] DEBUG CS - Post RT c13a2889-1af1-425a-a71c-4972c89c0027 IncomingLocation <inf loc="11aY0xUaY0xV256298138003699984... (200)
+2019-06-03 18:01:21,236 [1174080454] DEBUG CS - Post RT in 2.57s (112.98b/s)
+2019-06-03 18:01:55,237 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c02d40f5-d0bb-4ddf-ac0c-482931c64d91 (Castle Wynd), Rad=50, Enter; 
+2019-06-03 18:01:55,238 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:c02d40f5-d0bb-4ddf-ac0c-482931c64d91
+2019-06-03 18:01:55,239 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:22
+2019-06-03 18:01:55,240 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:c02d40f5-d0bb-4ddf-ac0c-482931c64d91(Ruthven Park)
+2019-06-03 18:01:55,241 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:01:55,242 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:01:55,243 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Castle Wynd, approaching: True
+2019-06-03 18:01:55,244 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: c02d40f5-d0bb-4ddf-ac0c-482931c64d91 (56.297325,-3.7026405)
+2019-06-03 18:01:55,245 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:01:55,246 [-2036600870] DEBUG CS - Post RT 3c91bfe4-d1b4-427b-a2e3-332d1a9532b8 IncomingLocation <inf loc="10aY0y3aY0y4256297325003702640... (200)
+2019-06-03 18:01:57,247 [-2036600870] DEBUG CS - Post RT in 1.69s (171.91b/s)
+2019-06-03 18:02:09,248 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c02d40f5-d0bb-4ddf-ac0c-482931c64d91 (Castle Wynd), Rad=50, Leave; 
+2019-06-03 18:02:09,249 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:c02d40f5-d0bb-4ddf-ac0c-482931c64d91, Leave
+2019-06-03 18:02:09,250 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:02:09,251 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Co-op, approaching: False
+2019-06-03 18:02:09,252 [1174080454] DEBUG CS - Post RT 133e7969-2bb3-4666-add2-396d037b0f70 IncomingLocation <inf loc="11aY0yHaY0yI256296994003704141... (200)
+2019-06-03 18:02:11,253 [1174080454] DEBUG CS - Post RT in 2.28s (127.33b/s)
+2019-06-03 18:02:25,254 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:02:26,255 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:02:26,000 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:02:26,001 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:02:27,002 [SC poll] DEBUG SCR - Status:Online
+2019-06-03 18:02:35,003 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0fe76aba-56b3-4df4-8d12-8ca163b75c51 (Co-op), Rad=50, Enter; 
+2019-06-03 18:02:35,004 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:0fe76aba-56b3-4df4-8d12-8ca163b75c51
+2019-06-03 18:02:35,005 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:23
+2019-06-03 18:02:35,006 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:0fe76aba-56b3-4df4-8d12-8ca163b75c51(Auchterarder (Aytoun Hall))
+2019-06-03 18:02:35,007 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:02:35,008 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:02:35,009 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Co-op, approaching: True
+2019-06-03 18:02:35,010 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 0fe76aba-56b3-4df4-8d12-8ca163b75c51 (56.2961681666667,-3.7069395)
+2019-06-03 18:02:35,011 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:02:35,012 [-2036600870] DEBUG CS - Post RT 5ca4be66-b068-40dd-8272-cee5c120820d IncomingLocation <inf loc="10aY0yhaY0yi256296168003706939... (200)
+2019-06-03 18:02:36,013 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:02:36,014 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Force leaving current stop
+2019-06-03 18:02:36,015 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:0fe76aba-56b3-4df4-8d12-8ca163b75c51, Leave
+2019-06-03 18:02:36,016 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Spar, approaching: False
+2019-06-03 18:02:36,017 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:02:36,018 [122707790] INFO  TM1.Controllers.SelectTicketController - VIM showing
+2019-06-03 18:02:36,019 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:02:36,020 [1174080454] DEBUG CS - Post RT c229fdcd-c0ef-4c08-b7df-4fa35302be4b IncomingLocation <inf loc="01aY0yiaY0yj256296133003707033... (200)
+2019-06-03 18:02:36,021 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778856960
+2019-06-03 18:02:36,022 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15134720
+2019-06-03 18:02:36,023 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2423588
+2019-06-03 18:02:36,024 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:02:36,025 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:True; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:02:36,026 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="23" />  <sc scans="8" wcnt="13" scandur="5615" wdur="6062" />  <conn uptime="6676" pend="0" />  <sys uptime="6779" />  <print p0="1" />  <db /></session>
+2019-06-03 18:02:37,027 [-2036600870] DEBUG CS - Post RT in 2.06s (141.07b/s)
+2019-06-03 18:02:37,028 [122707790] DEBUG PerfLogger - 
+2019-06-03 18:02:38,029 [1174080454] DEBUG CS - Post RT in 1.88s (154.51b/s)
+2019-06-03 18:02:56,030 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:02:56,031 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:02:56,032 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:02:58,033 [122707790] DEBUG TM_Screens.SelectTicket - ST Popup:Progress:Card transaction
+2019-06-03 18:02:58,034 [SC poll] DEBUG TM1.Controllers.SelectTicketController - 18:02:58:[SC] Scan, Automatic - ISRN:633597013078584505,MCRN:63370810860982018FFF,CMD:2
+18:02:58.073:Candidates: 1
+18:02:58.074:[2]2.0(130,0,,), [3]16.2(130,12288,,)
+18:02:58.103:Fares valid now (ignoring dest): 34
+18:02:58.104:Destination required
+18:02:58.105:Destination required
+2019-06-03 18:02:59,035 [122707790] DEBUG TM1.Controllers.SelectTicketController - 18:02:58:Candidates: 1
+18:02:58.000:[2]2.0(130,0,,), [3]16.2(130,12288,,)
+18:02:58.006:Fares valid now (filtered to 26c19632-0362-4102-8a58-382e2bf25ed4): 34
+18:02:58.009:Confirmation required
+2019-06-03 18:02:59,036 [122707790] DEBUG TM_Screens.SelectTicket - ST Popup:Confirmation:Confirmation Required
+2019-06-03 18:03:01,037 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Wrote itso msg:686abb68-99ca-4936-b041-95392e07fb1e (2943)
+2019-06-03 18:03:01,038 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Codes:0209
+2019-06-03 18:03:03,039 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Wrote itso msg:817aead4-d9b9-4453-8ae0-07b03d93d934 (2943)
+2019-06-03 18:03:03,040 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Codes:0209
+2019-06-03 18:03:03,041 [CS] DEBUG CS - Post msg:e88bb288-1e09-43ad-bec5-fe48fc0e7359 ItsoRecord <itsoRecords format="b64"><record id="aL... (4107)
+2019-06-03 18:03:03,042 [122707790] DEBUG TM_Screens.SelectTicket - ST Popup:Positive:Card Accepted
+2019-06-03 18:03:03,043 [ticket_persist] INFO  TM1.Business.Transaction - START save tx:36 Status PAID  v2
+2019-06-03 18:03:03,044 [ticket_persist] INFO  TM1.Business.Transaction - TransactionId=18fa86d7-48e5-44a7-88a3-38726965a1ca
+DriverId=e459cd8f-933c-4326-91f1-88f25c28c40e
+ServiceId=e73e3f9c-39b7-45d5-aaeb-ebcf79a1f98f
+StopId=5136ba31-b70e-473e-9108-c5c314abd55d
+TotalValue=0
+NumberTickets=1
+FirstTicketNumber=10162
+Status=3
+TimeStamp=2019-06-03 17:03:03
+PaymentMethod=2
+Location=256296015003707436
+IsDeleted=False
+TransactionNumber=36
+DutyTripId=d5d78a55-eb4a-4c48-b65b-c49f5dc7874a
+Automatic=True
+PaymentScenario=3
+Currency=0
+
+2019-06-03 18:03:03,045 [ticket_persist] INFO  TM1.Business.Transaction - TicketNumber=10162
+TicketId=14545363-aa11-45eb-9e49-741081545e2c
+DestinationId=26c19632-0362-4102-8a58-382e2bf25ed4
+Status=3
+Cost=0
+SmartCardIdentifier=63370810860982018
+SmartCardProductId=88cddbfe-d902-4b9c-9dc2-05f604584723
+ShadowCost=140
+UniqueTicketId=8867589f-2917-4d12-b25a-c3b497a8192d
+SmartCardProduct2Id=
+
+2019-06-03 18:03:03,046 [ticket_persist] DEBUG TM1.Business.Transaction - END persist tx
+2019-06-03 18:03:03,047 [122707790] DEBUG TM1.Controllers.SelectTicketController - 18:02:58:Driver confirmation:True
+18:02:58.000:16CF:true
+18:02:58.076:1 tickets issued in response to SC confirmation (True)
+18:03:00.650:Debit:[3]16.2(130,12288,,):OK
+18:03:00.651:Adding ticket to transaction. SC#: 63370810860982018
+18:03:00.735:1 tickets issued
+18:03:01.102:SC was used for automatic tx
+2019-06-03 18:03:04,048 [ticket_persist] DEBUG TM1.Business.Transaction - END persist tickets
+2019-06-03 18:03:04,049 [print_queue] DEBUG Printer - Tickets printed for tx 36:010162,
+2019-06-03 18:03:05,050 [1742608930] DEBUG Printer - Printer ASB: 5c00000f1400000f
+2019-06-03 18:03:05,051 [1742608930] INFO  Printer - Printer reported status: Cover Is Closed; Paper Feed Button Pressed; Printer Offline;
+2019-06-03 18:03:05,052 [1742608930] INFO  Printer - Printer reported status: Cover Is Closed;
+2019-06-03 18:03:07,053 [CS] DEBUG CS - Post in 4.36s (963b/s)
+2019-06-03 18:03:07,054 [CS] DEBUG CS - Post e88bb288-1e09-43ad-bec5-fe48fc0e7359:200(0)
+2019-06-03 18:03:08,055 [CS] DEBUG CS - END batch:5
+2019-06-03 18:03:08,056 [SC poll] DEBUG ItsoManager - Start tx code:8001 [0x1f41 m8001 (m0x1f41)]
+2019-06-03 18:03:09,057 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Wrote itso msg:b2dd691f-5133-40fb-addc-e120dcff7b7e (2764)
+2019-06-03 18:03:09,058 [ITSO_MSGS_WRITE] DEBUG ItsoManager - Codes:0400
+2019-06-03 18:03:11,059 [CS] DEBUG CS - Post msg:<body id="JNNP8Jci_U2T4Qs2XWW4mw" v="21" at="297277383" op="q2MyDhhxJUKYWdVtMRWM0Q"><inf ticket="n1hniBcpEk2yWsO0l6gZLQVYrX1UrrSEy2W8SfXceHSgY1NUFBGq60WeSXQQgVReLAMbo2UQ63PkeRCMXDFKvVXQMpbBJmIDAkGKWDguK_Je1A23aY0z7256296015003707436000000003601016202CT7tyIdEqI9F4V9yc1bAj81Z5DyTJkOR8YjyXCjEDgnD8-57c51UWq6-vPeaH5jw0Duty4mfAAAAAAAAAAAAAAAAAAAAAA4aY1MO63370810860982018________________________tvNiALZnEudwgX2BFhHIw_______1030001402aY0z8-011101umrnD7NW9E2NEoyhY7dcUQ102____________________________________________AAAAAAAAAAAAAAAAAAAAAA0300000000________________________________________AAAAAAAAAAAAAAAAAAAAAA0"/></body>
+2019-06-03 18:03:13,060 [CS] DEBUG CS - Post in 2.30s
+2019-06-03 18:03:13,061 [CS] DEBUG CS - Post f04fd324-2297-4dfd-93e1-0b365d65b89b:200(0)
+2019-06-03 18:03:13,062 [CS] DEBUG CS - Post msg:047297f5-70f6-412c-b80b-038275493be7 ItsoRecord <itsoRecords format="b64"><record id="1O... (4107)
+2019-06-03 18:03:16,063 [CS] DEBUG CS - Post in 3.05s (1376b/s)
+2019-06-03 18:03:16,064 [CS] DEBUG CS - Post 047297f5-70f6-412c-b80b-038275493be7:200(0)
+2019-06-03 18:03:17,065 [CS] DEBUG CS - Post msg:e5fd5993-4d61-4d6c-932a-574e1f9da2b2 ItsoRecord <itsoRecords format="b64"><record id="H2... (3871)
+2019-06-03 18:03:21,066 [CS] DEBUG CS - Post in 4.39s (902b/s)
+2019-06-03 18:03:21,067 [CS] DEBUG CS - Post e5fd5993-4d61-4d6c-932a-574e1f9da2b2:200(0)
+2019-06-03 18:03:21,068 [CS] DEBUG CS - END batch:10
+2019-06-03 18:03:58,069 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:04:30,070 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:1
+2019-06-03 18:04:30,071 [EventsSender] DEBUG Events.EventsLogger - Sending 1 EventsLogs
+2019-06-03 18:04:30,072 [EventsSender] DEBUG Events.EventsLogger - Size:79
+2019-06-03 18:04:33,073 [CS] DEBUG CS - Post msg:b5a9aed0-e974-4e20-bf62-598b6389c0fc IncomingEvents <events><s id="63370810860982018" d="201... (96)
+2019-06-03 18:04:35,074 [CS] DEBUG CS - Post in 1.76s
+2019-06-03 18:04:35,075 [CS] DEBUG CS - Post b5a9aed0-e974-4e20-bf62-598b6389c0fc:200(0)
+2019-06-03 18:04:36,076 [CS] DEBUG CS - END batch:3
+2019-06-03 18:04:37,077 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778848768
+2019-06-03 18:04:37,078 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15101952
+2019-06-03 18:04:37,079 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2327708
+2019-06-03 18:04:37,080 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:04:37,081 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:True; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:04:37,082 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="6797" pend="0" />  <sys uptime="6900" />  <print p0="2" />  <db /></session>
+2019-06-03 18:05:22,083 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:05:22,084 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:05:23,085 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:0fe76aba-56b3-4df4-8d12-8ca163b75c51 (Co-op), Rad=50, Leave; 
+2019-06-03 18:05:23,086 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:0fe76aba-56b3-4df4-8d12-8ca163b75c51, Leave
+2019-06-03 18:05:23,087 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:05:23,088 [-2036600870] DEBUG CS - Post RT 372074a8-23c3-4e12-b0a5-d7fbb850cbc8 IncomingLocation <inf loc="11aY0_JaY0_J256295780003708350... (200)
+2019-06-03 18:05:23,089 [122707790] INFO  TM1.Controllers.SelectTicketController - VIM showing
+2019-06-03 18:05:23,090 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:05:23,091 [-1510889830] DEBUG CS - Post RT 9d9bb03f-2fa7-4af9-850c-fe62496e0ba5 IncomingLocation <inf loc="01aY0_JaY0_J256295780003708350... (200)
+2019-06-03 18:05:24,092 [122707790] DEBUG PerfLogger - 
+2019-06-03 18:05:25,093 [-2036600870] DEBUG CS - Post RT in 2.41s (120.46b/s)
+2019-06-03 18:05:26,094 [-1510889830] DEBUG CS - Post RT in 3.37s (86.04b/s)
+2019-06-03 18:05:30,095 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:05:43,096 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:3df6c211-c605-447a-8125-3c42dcdeb0ab (Spar), Rad=50, Enter; 
+2019-06-03 18:05:43,097 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:3df6c211-c605-447a-8125-3c42dcdeb0ab
+2019-06-03 18:05:43,098 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:24
+2019-06-03 18:05:43,099 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:3df6c211-c605-447a-8125-3c42dcdeb0ab(Auchterarder (Aytoun Hall))
+2019-06-03 18:05:43,100 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:05:43,101 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:05:43,102 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Spar, approaching: True
+2019-06-03 18:05:43,103 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 3df6c211-c605-447a-8125-3c42dcdeb0ab (56.2949203333333,-3.710787)
+2019-06-03 18:05:43,104 [1742608930] DEBUG CS - Post RT 803bc999-aedb-4011-9720-337c17cfddfc IncomingLocation <inf loc="10aY0_daY0_e256294920003710787... (200)
+2019-06-03 18:05:44,105 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:05:45,106 [1742608930] DEBUG CS - Post RT in 1.93s (150.30b/s)
+2019-06-03 18:06:08,107 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:3df6c211-c605-447a-8125-3c42dcdeb0ab (Spar), Rad=50, Leave; 
+2019-06-03 18:06:08,108 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:3df6c211-c605-447a-8125-3c42dcdeb0ab, Leave
+2019-06-03 18:06:08,109 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:06:08,110 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to St Margaret's Hospital, approaching: False
+2019-06-03 18:06:08,111 [-1510889830] DEBUG CS - Post RT 3536f877-acbd-49d1-997a-47032743ec38 IncomingLocation <inf loc="11aY100aY100256294421003712129... (200)
+2019-06-03 18:06:10,112 [-1510889830] DEBUG CS - Post RT in 2.21s (131.21b/s)
+2019-06-03 18:06:13,113 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:06:39,114 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778848768
+2019-06-03 18:06:39,115 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15101952
+2019-06-03 18:06:39,116 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2053352
+2019-06-03 18:06:39,117 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:06:39,118 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:True; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:06:39,119 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="6919" pend="0" />  <sys uptime="7022" />  <print p0="2" />  <db /></session>
+2019-06-03 18:06:39,120 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c0f0b036-448c-4f6d-bffb-d57477c4f563 (St Margaret's Hospital), Rad=50, Enter; 
+2019-06-03 18:06:39,121 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:c0f0b036-448c-4f6d-bffb-d57477c4f563
+2019-06-03 18:06:39,122 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:25
+2019-06-03 18:06:39,123 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:c0f0b036-448c-4f6d-bffb-d57477c4f563(Auchterarder (St. Margarets))
+2019-06-03 18:06:39,124 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:06:39,125 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:06:39,126 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to St Margaret's Hospital, approaching: True
+2019-06-03 18:06:39,127 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: c0f0b036-448c-4f6d-bffb-d57477c4f563 (56.2929353333333,-3.71660416666667)
+2019-06-03 18:06:39,128 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:06:39,129 [-2036600870] DEBUG CS - Post RT 15125927-c93e-4972-8f9a-3210433a6712 IncomingLocation <inf loc="10aY10VaY10W256292935003716604... (200)
+2019-06-03 18:06:41,130 [-2036600870] DEBUG CS - Post RT in 2.14s (135.79b/s)
+2019-06-03 18:07:02,131 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:07:02,132 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c0f0b036-448c-4f6d-bffb-d57477c4f563 (St Margaret's Hospital), Rad=50, Leave; 
+2019-06-03 18:07:02,133 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:c0f0b036-448c-4f6d-bffb-d57477c4f563, Leave
+2019-06-03 18:07:02,134 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:07:02,135 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to St Margarets Crescent, approaching: False
+2019-06-03 18:07:02,136 [-2036600870] DEBUG CS - Post RT 4f9ad69c-f32f-412d-8d48-1a8f4f4fc5f1 IncomingLocation <inf loc="11aY10saY10t256292222003717536... (200)
+2019-06-03 18:07:04,137 [-2036600870] DEBUG CS - Post RT in 1.79s (162.34b/s)
+2019-06-03 18:07:17,138 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9d0030a3-2846-4154-83b8-fd7fa87cf8ff (St Margarets Crescent), Rad=50, Enter; 
+2019-06-03 18:07:17,139 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:9d0030a3-2846-4154-83b8-fd7fa87cf8ff
+2019-06-03 18:07:17,140 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:26
+2019-06-03 18:07:17,141 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:9d0030a3-2846-4154-83b8-fd7fa87cf8ff(Orchil Road)
+2019-06-03 18:07:17,142 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:07:17,143 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:07:17,144 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to St Margarets Crescent, approaching: True
+2019-06-03 18:07:17,145 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 9d0030a3-2846-4154-83b8-fd7fa87cf8ff (56.291447,-3.7190495)
+2019-06-03 18:07:17,146 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:07:17,147 [-2036600870] DEBUG CS - Post RT 91adb82d-e9bc-4e17-b935-67de03332487 IncomingLocation <inf loc="10aY115aY116256291447003719049... (200)
+2019-06-03 18:07:20,148 [-2036600870] DEBUG CS - Post RT in 2.46s (117.78b/s)
+2019-06-03 18:07:31,149 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:07:43,150 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9d0030a3-2846-4154-83b8-fd7fa87cf8ff (St Margarets Crescent), Rad=50, Leave; 
+2019-06-03 18:07:43,151 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:9d0030a3-2846-4154-83b8-fd7fa87cf8ff, Leave
+2019-06-03 18:07:43,152 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:07:43,153 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Orchil Crescent, approaching: False
+2019-06-03 18:07:43,154 [1742608930] DEBUG CS - Post RT f6c9cf66-bdf1-488b-968f-7b226effac4f IncomingLocation <inf loc="11aY11VaY11W256291329003720716... (200)
+2019-06-03 18:07:45,155 [1742608930] DEBUG CS - Post RT in 1.86s (156.01b/s)
+2019-06-03 18:08:07,156 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:1bb90948-e5b6-47ac-8ddb-d754dee0bd1a (Orchil Crescent), Rad=50, Enter; 
+2019-06-03 18:08:07,157 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:1bb90948-e5b6-47ac-8ddb-d754dee0bd1a
+2019-06-03 18:08:07,158 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:27
+2019-06-03 18:08:07,159 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:1bb90948-e5b6-47ac-8ddb-d754dee0bd1a(Orchil Road)
+2019-06-03 18:08:07,160 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:08:07,161 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:07,162 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Orchil Crescent, approaching: True
+2019-06-03 18:08:07,163 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 1bb90948-e5b6-47ac-8ddb-d754dee0bd1a (56.2906611666667,-3.72538083333333)
+2019-06-03 18:08:07,164 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:08:07,165 [-2036600870] DEBUG CS - Post RT 0ca27cc5-4972-490d-8405-4246d6ce7b1d IncomingLocation <inf loc="10aY11taY11u256290661003725380... (200)
+2019-06-03 18:08:12,166 [-2036600870] DEBUG CS - Post RT in 4.96s (58.49b/s)
+2019-06-03 18:08:15,167 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:1bb90948-e5b6-47ac-8ddb-d754dee0bd1a (Orchil Crescent), Rad=50, Leave; 
+2019-06-03 18:08:15,168 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:1bb90948-e5b6-47ac-8ddb-d754dee0bd1a, Leave
+2019-06-03 18:08:15,169 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:15,170 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Drummond Avenue, approaching: False
+2019-06-03 18:08:15,171 [-2036600870] DEBUG CS - Post RT cc785ab1-dd11-4029-9e48-ddcca329956b IncomingLocation <inf loc="11aY11_aY120256290418003726832... (200)
+2019-06-03 18:08:17,172 [-2036600870] DEBUG CS - Post RT in 1.74s (166.92b/s)
+2019-06-03 18:08:23,173 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:eb4a4fc1-fb39-4622-97d9-e36723f1eaff (Drummond Avenue), Rad=50, Enter; 
+2019-06-03 18:08:23,174 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:eb4a4fc1-fb39-4622-97d9-e36723f1eaff
+2019-06-03 18:08:23,175 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:28
+2019-06-03 18:08:23,176 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:eb4a4fc1-fb39-4622-97d9-e36723f1eaff(Orchil Road)
+2019-06-03 18:08:23,177 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:08:23,178 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:23,179 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Drummond Avenue, approaching: True
+2019-06-03 18:08:23,180 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: eb4a4fc1-fb39-4622-97d9-e36723f1eaff (56.290061,-3.72845616666667)
+2019-06-03 18:08:23,181 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:08:23,182 [-2036600870] DEBUG CS - Post RT b914e637-9131-42d3-b9ef-7cd667192bd8 IncomingLocation <inf loc="10aY127aY128256290061003728456... (200)
+2019-06-03 18:08:25,183 [-2036600870] DEBUG CS - Post RT in 1.58s (184.03b/s)
+2019-06-03 18:08:30,184 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:eb4a4fc1-fb39-4622-97d9-e36723f1eaff (Drummond Avenue), Rad=50, Leave; 
+2019-06-03 18:08:30,185 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:eb4a4fc1-fb39-4622-97d9-e36723f1eaff, Leave
+2019-06-03 18:08:30,186 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:30,187 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to The Paddock, approaching: False
+2019-06-03 18:08:30,188 [-1510889830] DEBUG CS - Post RT 486b8c0d-b487-4417-8022-9f50142961d6 IncomingLocation <inf loc="11aY12EaY12F256289696003729973... (200)
+2019-06-03 18:08:32,189 [-1510889830] DEBUG CS - Post RT in 1.73s (168.08b/s)
+2019-06-03 18:08:35,190 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:08:41,191 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778832384
+2019-06-03 18:08:41,192 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15036416
+2019-06-03 18:08:41,193 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2541036
+2019-06-03 18:08:41,194 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:08:41,195 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:08:41,196 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7041" pend="0" />  <sys uptime="7144" />  <print p0="2" />  <db /></session>
+2019-06-03 18:08:43,197 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c8b35917-c195-4755-8032-b0c138b79deb (The Paddock), Rad=50, Enter; 
+2019-06-03 18:08:43,198 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:c8b35917-c195-4755-8032-b0c138b79deb
+2019-06-03 18:08:43,199 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:29
+2019-06-03 18:08:43,200 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:c8b35917-c195-4755-8032-b0c138b79deb(Orchil Road)
+2019-06-03 18:08:43,201 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:08:43,202 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:43,203 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to The Paddock, approaching: True
+2019-06-03 18:08:43,204 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: c8b35917-c195-4755-8032-b0c138b79deb (56.288978,-3.7327665)
+2019-06-03 18:08:43,205 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:08:43,206 [1174080454] DEBUG CS - Post RT 348791fb-38b2-4adf-bdda-b911de01fee8 IncomingLocation <inf loc="10aY12RaY12S256288978003732766... (200)
+2019-06-03 18:08:45,207 [1174080454] DEBUG CS - Post RT in 1.71s (169.18b/s)
+2019-06-03 18:08:50,208 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:c8b35917-c195-4755-8032-b0c138b79deb (The Paddock), Rad=50, Leave; 
+2019-06-03 18:08:50,209 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:c8b35917-c195-4755-8032-b0c138b79deb, Leave
+2019-06-03 18:08:50,210 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:08:50,211 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: False
+2019-06-03 18:08:50,212 [1174080454] DEBUG CS - Post RT 4db34b04-d151-4b3d-9f5e-cb45cbfcb5ee IncomingLocation <inf loc="11aY12YaY12Z256288628003734139... (200)
+2019-06-03 18:08:52,213 [1174080454] DEBUG CS - Post RT in 1.66s (174.98b/s)
+2019-06-03 18:10:00,214 [CS] DEBUG CS - Post msg:0ee40eb3-9384-48ce-9960-6828460bbff3 IncomingGetPubs <get pubs="9:EZzY0V8FyUei-c-CaJpWdw,20:T... (351)
+2019-06-03 18:10:04,215 [CS] DEBUG CS - Post in 3.83s (115b/s)
+2019-06-03 18:10:04,216 [CS] DEBUG CS - Post 0ee40eb3-9384-48ce-9960-6828460bbff3:200(0)
+2019-06-03 18:10:04,217 [CS] DEBUG CS - END batch:4
+2019-06-03 18:10:11,218 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:10:19,219 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (Gleneagles Trades Entrance), Rad=50, Enter; 
+2019-06-03 18:10:19,220 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:d4b40b19-0bd5-43ea-9c83-d8626da5fb36
+2019-06-03 18:10:19,221 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:30
+2019-06-03 18:10:19,222 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:d4b40b19-0bd5-43ea-9c83-d8626da5fb36(Gleneagles Hotel)
+2019-06-03 18:10:19,223 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:10:19,224 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:10:19,225 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: True
+2019-06-03 18:10:19,226 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (56.284658,-3.75027066666667)
+2019-06-03 18:10:19,227 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:10:19,228 [-1510889830] DEBUG CS - Post RT 3d3a05ff-ca86-456c-a329-5ed08d824848 IncomingLocation <inf loc="10aY13xaY13y256284658003750270... (200)
+2019-06-03 18:10:21,229 [-1510889830] DEBUG CS - Post RT in 1.73s (167.20b/s)
+2019-06-03 18:10:34,230 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Lat/lng:56.2844856666667,-3.75107183333333
+2019-06-03 18:10:42,231 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778832384
+2019-06-03 18:10:42,232 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15036416
+2019-06-03 18:10:42,233 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2399068
+2019-06-03 18:10:42,234 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:10:42,235 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:10:42,236 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7162" pend="0" />  <sys uptime="7265" />  <print p0="2" />  <db /></session>
+2019-06-03 18:10:43,237 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (Gleneagles Trades Entrance), Rad=50, Leave; 
+2019-06-03 18:10:43,238 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:d4b40b19-0bd5-43ea-9c83-d8626da5fb36, Leave
+2019-06-03 18:10:43,239 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:10:43,240 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: False
+2019-06-03 18:10:43,241 [1742608930] DEBUG CS - Post RT ce9badfe-871e-49c4-8a41-ca8e7cb73da2 IncomingLocation <inf loc="11aY14JaY14K256284361003751707... (200)
+2019-06-03 18:10:45,242 [1742608930] DEBUG CS - Post RT in 1.85s (156.75b/s)
+2019-06-03 18:10:46,243 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:11:17,244 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:11:24,245 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9517ddb7-cb36-4f3e-9be3-bac579e14c78 (Gleneagles Trades Entrance), Rad=50, Enter; 
+2019-06-03 18:11:24,246 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:9517ddb7-cb36-4f3e-9be3-bac579e14c78
+2019-06-03 18:11:24,247 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:31
+2019-06-03 18:11:24,248 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:9517ddb7-cb36-4f3e-9be3-bac579e14c78(Gleneagles Hotel)
+2019-06-03 18:11:24,249 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:11:24,250 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:11:24,251 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: True
+2019-06-03 18:11:24,252 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 9517ddb7-cb36-4f3e-9be3-bac579e14c78 (56.2842635,-3.7520285)
+2019-06-03 18:11:24,253 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:11:24,254 [-2036600870] DEBUG CS - Post RT 03a0e036-22f4-4d49-aa87-ed592b6cf312 IncomingLocation <inf loc="10aY14yaY14z256284263003752028... (200)
+2019-06-03 18:11:26,255 [-2036600870] DEBUG CS - Post RT in 1.98s (146.50b/s)
+2019-06-03 18:11:32,000 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9517ddb7-cb36-4f3e-9be3-bac579e14c78 (Gleneagles Trades Entrance), Rad=50, Leave; 
+2019-06-03 18:11:32,001 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:9517ddb7-cb36-4f3e-9be3-bac579e14c78, Leave
+2019-06-03 18:11:32,002 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:11:32,003 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Hotel, approaching: False
+2019-06-03 18:11:32,004 [-2036600870] DEBUG CS - Post RT bee64274-290b-46e1-b32f-156dd5f5f137 IncomingLocation <inf loc="11aY154aY155256284665003750412... (200)
+2019-06-03 18:11:39,005 [-2036600870] DEBUG CS - Post RT in 6.72s (43.14b/s)
+2019-06-03 18:11:45,006 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:12:14,007 [BackgroundTaskEngine] DEBUG Upgrader2.ServerUtils - Requesting upgradeList
+2019-06-03 18:12:19,008 [BackgroundTaskEngine] DEBUG Upgrader2.ServerUtils - Check succeeded
+2019-06-03 18:12:19,009 [BackgroundTaskEngine] DEBUG Upgrader - Set LastVersionCheckTime to:03/06/2019 17:12:19
+2019-06-03 18:12:21,010 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:12:21,011 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:12:21,012 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:12:22,013 [SC poll] DEBUG SCR - Status:Online
+2019-06-03 18:12:31,014 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:12:31,015 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:12:33,016 [122707790] INFO  TM1.Controllers.SelectTicketController - VIM showing
+2019-06-03 18:12:33,017 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:12:33,018 [1174080454] DEBUG CS - Post RT 218a0cbc-f3a1-4dd8-a859-0bd84082e249 IncomingLocation <inf loc="01aY161aY162256282181003745516... (200)
+2019-06-03 18:12:34,019 [122707790] DEBUG PerfLogger - 
+2019-06-03 18:12:36,020 [1174080454] DEBUG CS - Post RT in 2.83s (102.41b/s)
+2019-06-03 18:12:37,021 [BackgroundTaskEngine] DEBUG ConfigChecker - START config check
+2019-06-03 18:12:40,022 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:63fcb39a-6b89-458a-ad55-8e9ebb385481 (Gleneagles Hotel), Rad=50, Enter; 
+2019-06-03 18:12:40,023 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:63fcb39a-6b89-458a-ad55-8e9ebb385481
+2019-06-03 18:12:40,024 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:32
+2019-06-03 18:12:40,025 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:63fcb39a-6b89-458a-ad55-8e9ebb385481(Gleneagles Hotel)
+2019-06-03 18:12:40,026 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:26c19632-0362-4102-8a58-382e2bf25ed4(Blackford)
+2019-06-03 18:12:40,027 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:12:40,028 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Hotel, approaching: True
+2019-06-03 18:12:40,029 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 63fcb39a-6b89-458a-ad55-8e9ebb385481 (56.2814363333333,-3.745531)
+2019-06-03 18:12:40,030 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:12:40,031 [1742608930] DEBUG CS - Post RT 3948dc2d-9374-4f45-aeb9-4191c38c4eb5 IncomingLocation <inf loc="10aY168aY169256281436003745530... (200)
+2019-06-03 18:12:43,032 [connection_03151122_564659_comms.ticketer.org.uk] DEBUG HttpClient - 03151122_564659_comms.ticketer.org.uk connected, 159.8.50.171:80
+2019-06-03 18:12:43,033 [BackgroundTaskEngine] INFO  ConfigChecker - OK 2 results.
+2019-06-03 18:12:44,034 [BackgroundTaskEngine] INFO  ConfigChecker - Writing \Intel\TM\Configs\tm1.exe.config.temp
+2019-06-03 18:12:44,035 [BackgroundTaskEngine] INFO  ConfigChecker - OK move to:\Intel\TM\Configs\tm1.exe.config
+2019-06-03 18:12:44,036 [BackgroundTaskEngine] INFO  ConfigChecker - Writing \Intel\TM\Configs\statusdisplay.exe.config.temp
+2019-06-03 18:12:44,037 [1742608930] DEBUG CS - Post RT in 4.13s (70.30b/s)
+2019-06-03 18:12:44,038 [BackgroundTaskEngine] INFO  ConfigChecker - OK move to:\Intel\TM\Configs\statusdisplay.exe.config
+2019-06-03 18:12:44,039 [BackgroundTaskEngine] DEBUG ConfigChecker - OK config check
+2019-06-03 18:12:46,040 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778824192
+2019-06-03 18:12:46,041 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15032320
+2019-06-03 18:12:46,042 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:1777580
+2019-06-03 18:12:46,043 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:12:46,044 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:True; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:12:46,045 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7286" pend="0" />  <sys uptime="7389" />  <print p0="2" />  <db /></session>
+2019-06-03 18:12:48,046 [CS] DEBUG CS - Post msg:a100435c-ccdd-4420-9c61-aff39d5924f2 IncomingSessionStats <session id="99418228-3b8b-4c1c-9946-421... (267)
+2019-06-03 18:12:50,047 [CS] DEBUG CS - Post in 1.77s
+2019-06-03 18:12:50,048 [CS] DEBUG CS - Post a100435c-ccdd-4420-9c61-aff39d5924f2:200(0)
+2019-06-03 18:12:50,049 [CS] DEBUG CS - END batch:2
+2019-06-03 18:12:59,050 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:63fcb39a-6b89-458a-ad55-8e9ebb385481 (Gleneagles Hotel), Rad=50, Leave; 
+2019-06-03 18:12:59,051 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:63fcb39a-6b89-458a-ad55-8e9ebb385481, Leave
+2019-06-03 18:12:59,052 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:12:59,053 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Loaninghead Flyover, approaching: False
+2019-06-03 18:12:59,054 [1742608930] DEBUG CS - Post RT 97a3809a-3cc5-41bf-9dff-67de005b0faf IncomingLocation <inf loc="11aY16RaY16T256280533003745325... (200)
+2019-06-03 18:13:01,055 [1742608930] DEBUG CS - Post RT in 1.71s (169.59b/s)
+2019-06-03 18:13:19,056 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:14:01,057 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:14:47,058 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778816000
+2019-06-03 18:14:47,059 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15032320
+2019-06-03 18:14:47,060 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2396904
+2019-06-03 18:14:47,061 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:14:47,062 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:True; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:14:47,063 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7407" pend="0" />  <sys uptime="7510" />  <print p0="2" />  <db /></session>
+2019-06-03 18:14:52,064 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:16:19,065 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:16:24,066 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:16:38,067 [comms_persist] DEBUG CS - Performing comms DB housekeeping
+2019-06-03 18:16:38,068 [comms_persist] DEBUG CS - START update old location messages
+2019-06-03 18:16:38,069 [comms_persist] DEBUG CS - END update old location messages (0)
+2019-06-03 18:16:38,070 [comms_persist] DEBUG CS - START comms DB housekeeping
+2019-06-03 18:16:38,071 [comms_persist] DEBUG CS - END comms DB housekeeping
+2019-06-03 18:16:48,072 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778816000
+2019-06-03 18:16:48,073 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15032320
+2019-06-03 18:16:48,074 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2023288
+2019-06-03 18:16:48,075 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:16:48,076 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:16:48,077 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7528" pend="0" />  <sys uptime="7631" />  <print p0="2" />  <db /></session>
+2019-06-03 18:17:16,078 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:17:56,079 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:18:01,080 [AVLTracking] DEBUG TPP - OK Q
+2019-06-03 18:18:01,081 [1742608930] DEBUG CS - Post RT 21f9e519-f867-4ff5-9816-a3c7dfc9f5bb IncomingLocation <inf loc="01aY1B9aY1BA256262834003765276... (200)
+2019-06-03 18:18:04,082 [1742608930] DEBUG CS - Post RT in 2.38s (121.85b/s)
+2019-06-03 18:18:50,083 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778816000
+2019-06-03 18:18:50,084 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15032320
+2019-06-03 18:18:50,085 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2581496
+2019-06-03 18:18:50,086 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:18:50,087 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:18:50,088 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7650" pend="0" />  <sys uptime="7753" />  <print p0="2" />  <db /></session>
+2019-06-03 18:19:29,089 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:19:49,090 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:2a750b69-b08d-4d38-a23e-4101c3064919 (Moray Institute), Rad=50, Enter; 
+2019-06-03 18:19:49,091 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:2a750b69-b08d-4d38-a23e-4101c3064919
+2019-06-03 18:19:49,092 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Can't advance to last stage - ignoring
+2019-06-03 18:19:49,093 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:2a750b69-b08d-4d38-a23e-4101c3064919, Enter
+2019-06-03 18:19:49,094 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:19:49,095 [1174080454] DEBUG CS - Post RT a4295f36-9272-4851-8d86-1465ff7814af IncomingLocation <inf loc="10aY1CraY1Cs256258513003785680... (200)
+2019-06-03 18:19:50,096 [1174080454] DEBUG CS - Post RT in 1.72s (168.61b/s)
+2019-06-03 18:19:55,097 [CS] DEBUG CS - Post msg:3b1e4803-524a-4297-866f-496c95d5ecaf IncomingGetPubs <get pubs="9:EZzY0V8FyUei-c-CaJpWdw,20:T... (351)
+2019-06-03 18:19:57,098 [CS] DEBUG CS - Post in 2.01s
+2019-06-03 18:19:57,099 [CS] DEBUG CS - Post 3b1e4803-524a-4297-866f-496c95d5ecaf:200(0)
+2019-06-03 18:19:57,100 [CS] DEBUG CS - END batch:2
+2019-06-03 18:20:13,101 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:2a750b69-b08d-4d38-a23e-4101c3064919 (Moray Institute), Rad=50, Leave; 
+2019-06-03 18:20:13,102 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:2a750b69-b08d-4d38-a23e-4101c3064919, Leave
+2019-06-03 18:20:13,103 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:20:13,104 [-2036600870] DEBUG CS - Post RT 68e46241-742d-4dc2-b7db-c2dd2000299c IncomingLocation <inf loc="11aY1DDaY1DF256259210003784662... (200)
+2019-06-03 18:20:15,105 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:20:15,106 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:20:15,107 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:20:15,108 [-2036600870] DEBUG CS - Post RT in 1.78s (163.28b/s)
+2019-06-03 18:20:16,109 [SC poll] DEBUG SCR - Status:Online
+2019-06-03 18:20:16,110 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.ExitScreen (ExitScreenController)
+2019-06-03 18:20:18,111 [122707790] DEBUG Controllers.Business.DriverActivityHelper - START EndTripIfNeeded
+2019-06-03 18:20:18,112 [122707790] DEBUG Controllers.Business.TicketIssueHelper - START wait for jobs to finish:30000
+2019-06-03 18:20:18,113 [122707790] DEBUG Controllers.Business.TicketIssueHelper - END wait for jobs to finish
+2019-06-03 18:20:18,114 [122707790] DEBUG Controllers.Business.DriverActivityHelper - EndTrip
+2019-06-03 18:20:18,115 [122707790] INFO  TripHelper - END duty trip:d5d78a55-eb4a-4c48-b65b-c49f5dc7874a
+2019-06-03 18:20:18,116 [122707790] DEBUG TripHelper - Trip details:StartTime=2019-06-03 16:15:57
+Direction=4
+Journey=103
+Vehicle=ee9360d3-88dc-4a74-88f4-5e15f727356c
+Driver=e459cd8f-933c-4326-91f1-88f25c28c40e
+Service=e73e3f9c-39b7-45d5-aaeb-ebcf79a1f98f
+TripType=Trip
+DriverSessionId=3958a48f-752b-4524-b4e9-998e5202b125
+ID=d5d78a55-eb4a-4c48-b65b-c49f5dc7874a
+DefinedDutyActivityId=5cc6611d-6c4b-4e5f-bbcc-c246011c543f
+ScheduledStartDateTime=2019-06-03 17:30:00
+
+2019-06-03 18:20:18,117 [122707790] DEBUG Controllers.Business.DriverActivityHelper - PostDutyTripEnd
+2019-06-03 18:20:18,118 [122707790] DEBUG Controllers.Business.DriverActivityHelper - SessionService.Finish
+2019-06-03 18:20:18,119 [122707790] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Clearing external displays
+2019-06-03 18:20:18,120 [122707790] DEBUG Controllers.Business.DriverActivityHelper - Clearing proximities
+2019-06-03 18:20:18,121 [122707790] DEBUG Controllers.Business.DriverActivityHelper - END EndTripIfNeeded
+2019-06-03 18:20:18,122 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.SelectDutyActivity (SelectDutyActivityController)
+2019-06-03 18:20:18,123 [122707790] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:20:18,124 [122707790] DEBUG TM1.Business.IssuedTicketSummary - START GetTicketSummaryForDutyTripAndDriver
+2019-06-03 18:20:18,125 [driver_msg_notif] DEBUG DriverMessageService - Total unread, valid, and unexpired driver messages:0
+2019-06-03 18:20:19,126 [122707790] DEBUG TM1.Business.IssuedTicketSummary - END GetTicketSummaryForDutyTripAndDriver
+2019-06-03 18:20:19,127 [122707790] DEBUG TM1.Business.IssuedTicketSummary - START GetTicketSummaryForDutyTripAndDriver
+2019-06-03 18:20:19,128 [122707790] DEBUG TM1.Business.IssuedTicketSummary - END GetTicketSummaryForDutyTripAndDriver
+2019-06-03 18:20:20,129 [CS] DEBUG CS - Post msg:92621c98-a83a-447a-ad9f-c765010f8d78 IncomingDutyTripAction <inf dutytrip="0Duty4mfVYrX1UrrSEy2W8SfX... (229)
+2019-06-03 18:20:21,130 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.Loading (ServiceLoadingController)
+2019-06-03 18:20:21,131 [122707790] DEBUG Ticketer.Data.TripSessionService - START async load service: a8a9b6c8-0bb3-4499-a962-4336ab9936a9
+2019-06-03 18:20:21,132 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:20:22,133 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG PublicationCache - Decoded publication cache found for SmartCardProductsV2, 773e5ced-3b9e-4fb0-8bff-7b6cc83c5e92
+2019-06-03 18:20:22,134 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG PublicationCache - Decoded publication cache found for Ticket, d050ba00-b082-4e2a-8849-80d0a03ba598
+2019-06-03 18:20:22,135 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG PublicationCache - Decoded publication cache found for TicketValidities, 3a0f5566-12ae-4982-8403-f37321f91def
+2019-06-03 18:20:22,136 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.TripSessionService - START load service detail for:a8a9b6c8-0bb3-4499-a962-4336ab9936a9,size:56506
+2019-06-03 18:20:22,137 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.StaticDataRepository - Mem before service load:15024128
+2019-06-03 18:20:22,138 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.StaticDataRepository - Fn:\Storage Card\StaticData\Service\a8a9b6c8-0bb3-4499-a962-4336ab9936a9\aaab2afcfde17e22dc67d086ed6284f5.xml,FCABFF:True,defaultStopRadius:50
+2019-06-03 18:20:22,139 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.StaticDataRepository - fareChartSummary found
+2019-06-03 18:20:22,140 [CS] DEBUG CS - Post in 2.15s
+2019-06-03 18:20:22,141 [CS] DEBUG CS - Post 92621c98-a83a-447a-ad9f-c765010f8d78:200(0)
+2019-06-03 18:20:25,142 [CS] DEBUG CS - END batch:5
+2019-06-03 18:20:25,143 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.StaticDataRepository - Mem after service load:15024128
+2019-06-03 18:20:25,144 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.TripSessionService - ----- Starting session on service:19,ticket types:34,ticket groups:4,FS:14,BS:40 ---
+2019-06-03 18:20:25,145 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.TripSessionService - Scan external products:0
+2019-06-03 18:20:25,146 [Service Loader for a8a9b6c8-0bb3-4499-a962-4336ab9936a9] DEBUG Ticketer.Data.TripSessionService - END load service detail
+2019-06-03 18:20:26,147 [122707790] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Clearing external displays
+2019-06-03 18:20:26,148 [122707790] DEBUG PublicationCache - Decoded publication cache found for PrinterText, a99a6cd6-798b-4240-b9b0-01fad349c730
+2019-06-03 18:20:27,149 [122707790] INFO  Controllers.Business.ProcessHelper - Starting duty trip: d25d8ca2-17e8-47d7-a278-090fd114043e
+2019-06-03 18:20:27,150 [122707790] DEBUG Controllers.Business.ProcessHelper - Trip details:StartTime=2019-06-03 17:20:26
+Direction=6
+Journey=116
+Vehicle=ee9360d3-88dc-4a74-88f4-5e15f727356c
+Driver=e459cd8f-933c-4326-91f1-88f25c28c40e
+Service=a8a9b6c8-0bb3-4499-a962-4336ab9936a9
+TripType=Trip
+DriverSessionId=3958a48f-752b-4524-b4e9-998e5202b125
+ID=d25d8ca2-17e8-47d7-a278-090fd114043e
+DefinedDutyActivityId=ad6462ad-911c-4454-95ab-a9ec963bf89d
+ScheduledStartDateTime=2019-06-03 18:25:00
+
+2019-06-03 18:20:27,151 [122707790] DEBUG Ticketer.Data.TripSessionService - Clearing proximities
+2019-06-03 18:20:27,152 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:20:27,153 [122707790] DEBUG Ticketer.Data.TripSessionService - START search timetable for direction:OUT, scheduled start: 03/06/2019 18:25:00, JC:116
+2019-06-03 18:20:27,154 [122707790] DEBUG Ticketer.Data.TripSessionService - No timetable publication for service:a8a9b6c8-0bb3-4499-a962-4336ab9936a9
+2019-06-03 18:20:27,155 [122707790] DEBUG Ticketer.Data.TripSessionService - END search timetable:unavailable
+2019-06-03 18:20:27,156 [122707790] DEBUG RouteProgressManager - Adding stops to check proximity: 40
+2019-06-03 18:20:27,157 [122707790] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to (manual):0
+2019-06-03 18:20:27,158 [122707790] DEBUG Ticketer.Data.TripSessionService - MRRP:10fb9637-bc5f-45dd-8684-664a14c21571(Blackford)
+2019-06-03 18:20:27,159 [122707790] DEBUG Ticketer.Data.TripSessionService - DFS:ff53e40f-68ff-409e-997e-6c873d680702(Gleneagles Railway Station)
+2019-06-03 18:20:27,160 [122707790] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Church, approaching: True
+2019-06-03 18:20:27,161 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.SelectTicket (SelectTicketController)
+2019-06-03 18:20:27,162 [-2036600870] DEBUG Ticketer.Data.TripSessionService - GeoFences count: 0, GeoFences used by current service: 0
+2019-06-03 18:20:27,163 [driver_msg_notif] DEBUG DriverMessageService - Total unread, valid, and unexpired driver messages:0
+2019-06-03 18:20:27,164 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Over 60
+2019-06-03 18:20:27,165 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Over 60
+2019-06-03 18:20:27,166 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Disabled
+2019-06-03 18:20:27,167 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Disabled
+2019-06-03 18:20:27,168 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Disable+C
+2019-06-03 18:20:27,169 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Disable+C
+2019-06-03 18:20:27,170 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Vis Imp
+2019-06-03 18:20:27,171 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Vis Imp
+2019-06-03 18:20:27,172 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Vis Imp+C
+2019-06-03 18:20:27,173 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Vis Imp+C
+2019-06-03 18:20:27,174 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Youth
+2019-06-03 18:20:27,175 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Youth
+2019-06-03 18:20:27,176 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Youth Vol
+2019-06-03 18:20:27,177 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Youth Vol
+2019-06-03 18:20:27,178 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Disable-C
+2019-06-03 18:20:27,179 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest Disable-C
+2019-06-03 18:20:27,180 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SC Vis Imp-C
+2019-06-03 18:20:27,181 [122707790] DEBUG TM_Screens.SelectTicket - Ticket not shown:SCTest VisImp-C
+2019-06-03 18:20:27,182 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 10fb9637-bc5f-45dd-8684-664a14c21571 (56.259824,-3.78318)
+2019-06-03 18:20:28,183 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:20:31,184 [CS] DEBUG CS - Post msg:f4411230-1a3c-431b-856a-1072e279558f IncomingDutyTripAction <inf dutytrip="0Duty4mfooxd0ugX10eieAkP0... (229)
+2019-06-03 18:20:32,185 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:20:33,186 [CS] DEBUG CS - Post in 1.85s
+2019-06-03 18:20:33,187 [CS] DEBUG CS - Post f4411230-1a3c-431b-856a-1072e279558f:200(0)
+2019-06-03 18:20:33,188 [CS] DEBUG CS - END batch:2
+2019-06-03 18:20:51,189 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778791424
+2019-06-03 18:20:51,190 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:20:51,191 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2264108
+2019-06-03 18:20:51,192 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:20:51,193 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:20:51,194 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7771" pend="0" />  <sys uptime="7874" />  <print p0="2" />  <db /></session>
+2019-06-03 18:20:58,195 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:20:58,196 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Force leaving current stop
+2019-06-03 18:20:58,197 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:10fb9637-bc5f-45dd-8684-664a14c21571, Leave
+2019-06-03 18:20:58,198 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Coaching Inn, approaching: False
+2019-06-03 18:20:58,199 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:20:59,200 [122707790] INFO  TM1.Controllers.SelectTicketController - VIM showing
+2019-06-03 18:20:59,201 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:20:59,202 [1174080454] DEBUG CS - Post RT 8f481c0c-6ffa-44c3-aa07-27d27e201a9b IncomingLocation <inf loc="01aY1DxaY1Dx256260249003782159... (200)
+2019-06-03 18:21:00,203 [122707790] DEBUG PerfLogger - 
+2019-06-03 18:21:01,204 [1174080454] DEBUG CS - Post RT in 1.98s (146.27b/s)
+2019-06-03 18:21:02,205 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:21:20,206 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:22:36,207 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:22:53,208 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778791424
+2019-06-03 18:22:53,209 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:22:53,210 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2520716
+2019-06-03 18:22:53,211 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:22:53,212 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:22:53,213 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="7893" pend="0" />  <sys uptime="7996" />  <print p0="2" />  <db /></session>
+2019-06-03 18:23:47,214 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:24:07,215 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:24:55,216 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778791424
+2019-06-03 18:24:55,217 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:24:55,218 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2415588
+2019-06-03 18:24:55,219 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:24:55,220 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:24:55,221 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8015" pend="0" />  <sys uptime="8118" />  <print p0="2" />  <db /></session>
+2019-06-03 18:25:39,222 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:26:02,223 [AVLTracking] DEBUG TPP - OK Q
+2019-06-03 18:26:02,224 [1174080454] DEBUG CS - Post RT c89e9215-56f8-4e00-8fbf-9429e7292502 IncomingLocation <inf loc="01aY1IgaY1Ih256261979003778058... (200)
+2019-06-03 18:26:04,225 [1174080454] DEBUG CS - Post RT in 2.08s (139.36b/s)
+2019-06-03 18:26:18,226 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:10fb9637-bc5f-45dd-8684-664a14c21571 (Church), Rad=50, Enter; 
+2019-06-03 18:26:18,227 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:10fb9637-bc5f-45dd-8684-664a14c21571
+2019-06-03 18:26:18,228 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:0
+2019-06-03 18:26:18,229 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:10fb9637-bc5f-45dd-8684-664a14c21571(Blackford)
+2019-06-03 18:26:18,230 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:ff53e40f-68ff-409e-997e-6c873d680702(Gleneagles Railway Station)
+2019-06-03 18:26:18,231 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:26:18,232 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Church, approaching: True
+2019-06-03 18:26:18,233 [1174080454] DEBUG CS - Post RT 4ff93ebe-f86d-4a50-b4cb-657529b87acd IncomingLocation <inf loc="10aY1IwaY1Ix256261607003778821... (200)
+2019-06-03 18:26:19,234 [1174080454] DEBUG CS - Post RT in 1.60s (181.61b/s)
+2019-06-03 18:26:25,235 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:26:32,236 [BackgroundTaskEngine] INFO  BackgroundTasks.LogSender - Moved 2 log files to staging area
+2019-06-03 18:26:34,237 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:10fb9637-bc5f-45dd-8684-664a14c21571 (Church), Rad=50, Leave; 
+2019-06-03 18:26:34,238 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:10fb9637-bc5f-45dd-8684-664a14c21571, Leave
+2019-06-03 18:26:34,239 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:26:34,240 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Coaching Inn, approaching: False
+2019-06-03 18:26:34,241 [-2036600870] DEBUG CS - Post RT 503eeaeb-d5fa-438a-a6b5-2b9c52920fd2 IncomingLocation <inf loc="11aY1JAaY1JB256261095003780155... (200)
+2019-06-03 18:26:36,242 [-2036600870] DEBUG CS - Post RT in 1.73s (167.61b/s)
+2019-06-03 18:26:56,243 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:16f7aa0e-8ceb-444f-ae82-57d41bf55312 (Coaching Inn), Rad=50, Enter; 
+2019-06-03 18:26:56,244 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:16f7aa0e-8ceb-444f-ae82-57d41bf55312
+2019-06-03 18:26:56,245 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:1
+2019-06-03 18:26:56,246 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:16f7aa0e-8ceb-444f-ae82-57d41bf55312(Blackford)
+2019-06-03 18:26:56,247 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:ff53e40f-68ff-409e-997e-6c873d680702(Gleneagles Railway Station)
+2019-06-03 18:26:56,248 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:26:56,249 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Coaching Inn, approaching: True
+2019-06-03 18:26:56,250 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 16f7aa0e-8ceb-444f-ae82-57d41bf55312 (56.2603798333333,-3.7819085)
+2019-06-03 18:26:56,251 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:26:56,252 [-1510889830] DEBUG CS - Post RT 350e99a5-b592-4348-a84b-ca368407810a IncomingLocation <inf loc="10aY1JWaY1JX256260379003781908... (200)
+2019-06-03 18:26:56,253 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778791424
+2019-06-03 18:26:56,254 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:26:56,255 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2140988
+2019-06-03 18:26:56,000 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:26:56,001 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:26:56,002 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8136" pend="0" />  <sys uptime="8239" />  <print p0="2" />  <db /></session>
+2019-06-03 18:26:57,003 [-1510889830] DEBUG CS - Post RT in 1.58s (183.28b/s)
+2019-06-03 18:27:01,004 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:27:08,005 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:16f7aa0e-8ceb-444f-ae82-57d41bf55312 (Coaching Inn), Rad=50, Leave; 
+2019-06-03 18:27:08,006 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:16f7aa0e-8ceb-444f-ae82-57d41bf55312, Leave
+2019-06-03 18:27:08,007 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:27:08,008 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Moray Institute, approaching: False
+2019-06-03 18:27:08,009 [1174080454] DEBUG CS - Post RT f9c8f625-c091-4aa0-9d68-6e7312bec853 IncomingLocation <inf loc="11aY1JiaY1Jj256259862003783164... (200)
+2019-06-03 18:27:10,010 [1174080454] DEBUG CS - Post RT in 2.76s (104.90b/s)
+2019-06-03 18:27:12,011 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:27:23,012 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9ca643cb-b076-42e7-a4f2-26a9cd8b98d1 (Moray Institute), Rad=50, Enter; 
+2019-06-03 18:27:23,013 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:9ca643cb-b076-42e7-a4f2-26a9cd8b98d1
+2019-06-03 18:27:23,014 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:2
+2019-06-03 18:27:23,015 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:9ca643cb-b076-42e7-a4f2-26a9cd8b98d1(Blackford)
+2019-06-03 18:27:23,016 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:ff53e40f-68ff-409e-997e-6c873d680702(Gleneagles Railway Station)
+2019-06-03 18:27:23,017 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:27:23,018 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Moray Institute, approaching: True
+2019-06-03 18:27:23,019 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 9ca643cb-b076-42e7-a4f2-26a9cd8b98d1 (56.2589568333333,-3.78512833333333)
+2019-06-03 18:27:23,020 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:27:23,021 [1174080454] DEBUG CS - Post RT 7bfc4918-b046-45bc-9562-3dc1d62e4db3 IncomingLocation <inf loc="10aY1JxaY1Jy256258956003785128... (200)
+2019-06-03 18:27:24,022 [1174080454] DEBUG CS - Post RT in 1.66s (174.96b/s)
+2019-06-03 18:27:31,023 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9ca643cb-b076-42e7-a4f2-26a9cd8b98d1 (Moray Institute), Rad=50, Leave; 
+2019-06-03 18:27:31,024 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:9ca643cb-b076-42e7-a4f2-26a9cd8b98d1, Leave
+2019-06-03 18:27:31,025 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:27:31,026 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Loaninghead Flyover, approaching: False
+2019-06-03 18:27:31,027 [1174080454] DEBUG CS - Post RT 73e58c34-ffd4-4aa1-bf12-ca4f22ebb845 IncomingLocation <inf loc="11aY1K3aY1K4256258195003786106... (200)
+2019-06-03 18:27:34,028 [1174080454] DEBUG CS - Post RT in 3.02s (96.17b/s)
+2019-06-03 18:28:46,029 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:28:57,030 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778783232
+2019-06-03 18:28:57,031 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:28:57,032 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2519752
+2019-06-03 18:28:57,033 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:28:57,034 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:28:57,035 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8257" pend="0" />  <sys uptime="8360" />  <print p0="2" />  <db /></session>
+2019-06-03 18:29:51,036 [CS] DEBUG CS - Post msg:85be764e-5346-4671-9780-ddf5b6905105 IncomingGetPubs <get pubs="9:EZzY0V8FyUei-c-CaJpWdw,20:T... (351)
+2019-06-03 18:29:53,037 [CS] DEBUG CS - Post in 1.89s
+2019-06-03 18:29:53,038 [CS] DEBUG CS - Post 85be764e-5346-4671-9780-ddf5b6905105:200(0)
+2019-06-03 18:29:53,039 [CS] DEBUG CS - END batch:2
+2019-06-03 18:30:16,040 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:30:20,041 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:30:25,042 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:79773075-a9f5-4992-b5e5-ee4f73fa91ad (Loaninghead Flyover), Rad=50, Enter; 
+2019-06-03 18:30:25,043 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:79773075-a9f5-4992-b5e5-ee4f73fa91ad
+2019-06-03 18:30:25,044 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:5
+2019-06-03 18:30:25,045 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:79773075-a9f5-4992-b5e5-ee4f73fa91ad(Gleneagles Railway Station)
+2019-06-03 18:30:25,046 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:044f54ee-066b-4a68-b989-415bd2b20d41(Gleneagles Hotel)
+2019-06-03 18:30:25,047 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:30:25,048 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Loaninghead Flyover, approaching: True
+2019-06-03 18:30:25,049 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 79773075-a9f5-4992-b5e5-ee4f73fa91ad (56.2706133333333,-3.73777166666667)
+2019-06-03 18:30:25,050 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:30:25,051 [1742608930] DEBUG CS - Post RT 897be87a-0590-4912-ae05-96718e5835e3 IncomingLocation <inf loc="10aY1MmaY1Mo256270613003737771... (200)
+2019-06-03 18:30:27,052 [1742608930] DEBUG CS - Post RT in 1.96s (148.02b/s)
+2019-06-03 18:30:33,053 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:79773075-a9f5-4992-b5e5-ee4f73fa91ad (Loaninghead Flyover), Rad=50, Leave; 
+2019-06-03 18:30:33,054 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:79773075-a9f5-4992-b5e5-ee4f73fa91ad, Leave
+2019-06-03 18:30:33,055 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:30:33,056 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Hotel, approaching: False
+2019-06-03 18:30:33,057 [1174080454] DEBUG CS - Post RT 867ad54d-01b7-4d79-910d-a74ab6e253c4 IncomingLocation <inf loc="11aY1MvaY1Mw256271279003738310... (200)
+2019-06-03 18:30:35,058 [1174080454] DEBUG CS - Post RT in 2.07s (139.91b/s)
+2019-06-03 18:30:58,059 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778775040
+2019-06-03 18:30:58,060 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:30:58,061 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2780768
+2019-06-03 18:30:58,062 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:30:58,063 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:30:59,064 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8378" pend="0" />  <sys uptime="8481" />  <print p0="2" />  <db /></session>
+2019-06-03 18:31:26,065 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:31:41,066 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:129b8545-76b2-4503-bc16-3aa8253b0459 (Gleneagles Hotel), Rad=50, Enter; 
+2019-06-03 18:31:41,067 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:129b8545-76b2-4503-bc16-3aa8253b0459
+2019-06-03 18:31:41,068 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:6
+2019-06-03 18:31:41,069 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:129b8545-76b2-4503-bc16-3aa8253b0459(Gleneagles Hotel)
+2019-06-03 18:31:41,070 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:31dd3e18-2e9c-4126-bfea-a0c122b81144(Orchil Road)
+2019-06-03 18:31:41,071 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:31:41,072 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Hotel, approaching: True
+2019-06-03 18:31:41,073 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 129b8545-76b2-4503-bc16-3aa8253b0459 (56.2806866666667,-3.74536916666667)
+2019-06-03 18:31:41,074 [-1510889830] DEBUG CS - Post RT 46f155f4-6451-43e5-b351-59aeb2ad1a5e IncomingLocation <inf loc="10aY1NzaY1N-256280686003745369... (200)
+2019-06-03 18:31:41,075 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:31:43,076 [-1510889830] DEBUG CS - Post RT in 2.10s (138.11b/s)
+2019-06-03 18:31:48,077 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:129b8545-76b2-4503-bc16-3aa8253b0459 (Gleneagles Hotel), Rad=50, Leave; 
+2019-06-03 18:31:48,078 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:129b8545-76b2-4503-bc16-3aa8253b0459, Leave
+2019-06-03 18:31:48,079 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:31:48,080 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: False
+2019-06-03 18:31:48,081 [-1510889830] DEBUG CS - Post RT 6a8d59ab-717d-47ec-b766-eaca9c076d99 IncomingLocation <inf loc="11aY1O4aY1O5256281566003745520... (200)
+2019-06-03 18:31:50,082 [-1510889830] DEBUG CS - Post RT in 1.99s (145.67b/s)
+2019-06-03 18:31:53,083 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:32:50,084 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (Gleneagles Trades Entrance), Rad=50, Enter; 
+2019-06-03 18:32:50,085 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:d4b40b19-0bd5-43ea-9c83-d8626da5fb36
+2019-06-03 18:32:50,086 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:7
+2019-06-03 18:32:50,087 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:d4b40b19-0bd5-43ea-9c83-d8626da5fb36(Gleneagles Hotel)
+2019-06-03 18:32:50,088 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:31dd3e18-2e9c-4126-bfea-a0c122b81144(Orchil Road)
+2019-06-03 18:32:50,089 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:32:50,090 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: True
+2019-06-03 18:32:50,091 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (56.2846736666667,-3.75029283333333)
+2019-06-03 18:32:50,092 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:32:50,093 [1174080454] DEBUG CS - Post RT 3f741b71-f4ff-4410-9d20-5f34e3eb3f8c IncomingLocation <inf loc="10aY1P2aY1P3256284673003750292... (200)
+2019-06-03 18:32:52,094 [1174080454] DEBUG CS - Post RT in 1.99s (146.07b/s)
+2019-06-03 18:32:57,095 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:d4b40b19-0bd5-43ea-9c83-d8626da5fb36 (Gleneagles Trades Entrance), Rad=50, Leave; 
+2019-06-03 18:32:57,096 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:d4b40b19-0bd5-43ea-9c83-d8626da5fb36, Leave
+2019-06-03 18:32:57,097 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:32:57,098 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: False
+2019-06-03 18:32:57,099 [1174080454] DEBUG CS - Post RT 32fc67ef-4ff0-42ed-9b0f-f5eae2db8715 IncomingLocation <inf loc="11aY1P9aY1PA256284318003751770... (200)
+2019-06-03 18:32:59,100 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778775040
+2019-06-03 18:32:59,101 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14958592
+2019-06-03 18:32:59,102 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:1766316
+2019-06-03 18:32:59,103 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:32:59,104 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:32:59,105 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="24" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8499" pend="0" />  <sys uptime="8602" />  <print p0="2" />  <db /></session>
+2019-06-03 18:33:10,106 [1174080454] DEBUG CS - FAIL PostRealTime03151123_559209_comms.ticketer.org.uk Receive timeout
+2019-06-03 18:33:10,107 [1174080454] DEBUG CS - Post RT in 12.64s (22.94b/s)
+2019-06-03 18:33:10,108 [1174080454] DEBUG CS - FAIL RT post - sending to db
+2019-06-03 18:33:11,109 [CS] DEBUG CS - Post msg:32fc67ef-4ff0-42ed-9b0f-f5eae2db8715 IncomingLocation <inf loc="11aY1P9aY1PA256284318003751770... (200)
+2019-06-03 18:33:11,110 [CS] DEBUG HttpClient - 03151123_559209_comms.ticketer.org.uk launching worker thread
+2019-06-03 18:33:12,111 [connection_03151123_559209_comms.ticketer.org.uk] DEBUG HttpClient - 03151123_559209_comms.ticketer.org.uk connected, 159.8.50.171:80
+2019-06-03 18:33:15,112 [CS] DEBUG CS - Post in 3.80s (76b/s)
+2019-06-03 18:33:15,113 [CS] DEBUG CS - Post 32fc67ef-4ff0-42ed-9b0f-f5eae2db8715:200(0)
+2019-06-03 18:33:15,114 [CS] DEBUG CS - END batch:4
+2019-06-03 18:33:17,115 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:33:22,116 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:33:22,117 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:33:22,118 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:33:23,119 [SC poll] DEBUG SCR - Status:Online
+2019-06-03 18:33:25,120 [122707790] DEBUG TM_Screens.SelectTicket - Attempting DFS Auchterarder (St. Margarets)
+2019-06-03 18:33:25,121 [122707790] DEBUG Ticketer.Data.TripSessionService - MRRP:d4b40b19-0bd5-43ea-9c83-d8626da5fb36(Gleneagles Hotel)
+2019-06-03 18:33:25,122 [122707790] DEBUG Ticketer.Data.TripSessionService - DFS:79b8c756-d630-4bcb-9f7b-a7671d30a745(Auchterarder (St. Margarets))
+2019-06-03 18:33:25,123 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was manual
+2019-06-03 18:33:25,124 [122707790] DEBUG TM_Screens.SelectTicket - Attempting DFS Auchterarder (Aytoun Hall)
+2019-06-03 18:33:25,125 [122707790] DEBUG Ticketer.Data.TripSessionService - MRRP:d4b40b19-0bd5-43ea-9c83-d8626da5fb36(Gleneagles Hotel)
+2019-06-03 18:33:25,126 [122707790] DEBUG Ticketer.Data.TripSessionService - DFS:5136ba31-b70e-473e-9108-c5c314abd55d(Auchterarder (Aytoun Hall))
+2019-06-03 18:33:25,127 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was manual
+2019-06-03 18:33:26,128 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:33:33,129 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9517ddb7-cb36-4f3e-9be3-bac579e14c78 (Gleneagles Trades Entrance), Rad=50, Enter; 
+2019-06-03 18:33:33,130 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - AA nearest:9517ddb7-cb36-4f3e-9be3-bac579e14c78
+2019-06-03 18:33:33,131 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Setting AA RP index to:8
+2019-06-03 18:33:33,132 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - MRRP:9517ddb7-cb36-4f3e-9be3-bac579e14c78(Gleneagles Hotel)
+2019-06-03 18:33:33,133 [NMEA Queue Reader] DEBUG Ticketer.Data.TripSessionService - DFS:5136ba31-b70e-473e-9108-c5c314abd55d(Auchterarder (Aytoun Hall))
+2019-06-03 18:33:33,134 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:33:33,135 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to Gleneagles Trades Entrance, approaching: True
+2019-06-03 18:33:33,136 [122707790] DEBUG TM_Screens.SelectTicket - GPS setting boarding stop ID to: 9517ddb7-cb36-4f3e-9be3-bac579e14c78 (56.2842423333333,-3.752033)
+2019-06-03 18:33:33,137 [122707790] DEBUG TM_Screens.SelectTicket - Stages change was automatic
+2019-06-03 18:33:33,138 [1174080454] DEBUG CS - Post RT 289d101a-082a-4367-9bc5-b1ea16dddc93 IncomingLocation <inf loc="10aY1PjaY1Pk256284242003752033... (200)
+2019-06-03 18:33:35,139 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:33:35,140 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Force leaving current stop
+2019-06-03 18:33:35,141 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:9517ddb7-cb36-4f3e-9be3-bac579e14c78, Leave
+2019-06-03 18:33:35,142 [NMEA Queue Reader] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Setting next stop on external displays to The Paddock, approaching: False
+2019-06-03 18:33:35,143 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:33:35,144 [1174080454] DEBUG CS - Post RT in 1.98s (146.35b/s)
+2019-06-03 18:33:37,145 [122707790] INFO  TM1.Controllers.SelectTicketController - VIM showing
+2019-06-03 18:33:37,146 [122707790] DEBUG TPP - OK Q
+2019-06-03 18:33:37,147 [-1510889830] DEBUG CS - Post RT f7d156f6-9c62-48ea-9749-1aef6d0d4cd6 IncomingLocation <inf loc="01aY1PnaY1Pn256284334003751668... (200)
+2019-06-03 18:33:38,148 [122707790] DEBUG PerfLogger - 
+2019-06-03 18:33:39,149 [-1510889830] DEBUG CS - Post RT in 2.13s (136.01b/s)
+2019-06-03 18:33:42,150 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:33:42,151 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM being dismissed (manual)
+2019-06-03 18:33:42,152 [122707790] DEBUG TM1.Controllers.SelectTicketController - VIM dismissed (manual)
+2019-06-03 18:33:45,153 [ticket_persist] INFO  TM1.Business.Transaction - START save tx:1 Status PAID  v2
+2019-06-03 18:33:45,154 [ticket_persist] INFO  TM1.Business.Transaction - TransactionId=70888359-c8fd-4fd5-954b-cf9363fe5852
+DriverId=e459cd8f-933c-4326-91f1-88f25c28c40e
+ServiceId=a8a9b6c8-0bb3-4499-a962-4336ab9936a9
+StopId=044f54ee-066b-4a68-b989-415bd2b20d41
+TotalValue=120
+NumberTickets=1
+FirstTicketNumber=10163
+Status=3
+TimeStamp=2019-06-03 17:33:45
+PaymentMethod=1
+Location=256284352003751507
+IsDeleted=False
+TransactionNumber=1
+DutyTripId=d25d8ca2-17e8-47d7-a278-090fd114043e
+Automatic=False
+PaymentScenario=2
+Currency=0
+
+2019-06-03 18:33:45,155 [ticket_persist] INFO  TM1.Business.Transaction - TicketNumber=10163
+TicketId=d182e3ad-a247-4309-be94-6e8572fb1e19
+DestinationId=5136ba31-b70e-473e-9108-c5c314abd55d
+Status=3
+Cost=120
+SmartCardIdentifier=
+SmartCardProductId=
+ShadowCost=
+UniqueTicketId=31d2a44d-2edf-4280-b207-fa6b50bc813b
+SmartCardProduct2Id=
+
+2019-06-03 18:33:45,156 [ticket_persist] DEBUG TM1.Business.Transaction - END persist tx
+2019-06-03 18:33:45,157 [122707790] DEBUG TM1.Controllers.SelectTicketController - 18:33:45:Issuing manual tickets for cash: 1
+18:33:45.001:Adding ticket to transaction. SC#: None
+2019-06-03 18:33:46,158 [ticket_persist] DEBUG TM1.Business.Transaction - END persist tickets
+2019-06-03 18:33:46,159 [CS] DEBUG CS - Post msg:<body id="D1KHtxBUYUWmtOUopA5Giw" v="21" at="297279225" op="q2MyDhhxJUKYWdVtMRWM0Q"><inf ticket="TaTSMd8ugEKyB_prULyBOwooxd0ugX10eieAkP0RQEPgreOC0UeiCUO-lG6FcvseGQ7lRPBGsGaEq5iUFb0rINQQMbo2UQ63PkeRCMXDFKvVXQ13aY1Pv256284352003751507000120000101016302CT7tyIdEqI9F4V9yc1bAj81Z5DyTJkOR8YjyXCjEDgyLapqLMLmUSpYkM2q5k2qQ0Duty4mfAAAAAAAAAAAAAAAAAAAAAA6aY29y________________________________________AAAAAAAAAAAAAAAAAAAAAA_______116______2aY1Pv0631201t90XlTbLPk-b47rFeeFMeA012____________________________________________AAAAAAAAAAAAAAAAAAAAAA0200000000________________________________________AAAAAAAAAAAAAAAAAAAAAA0"/></body>
+2019-06-03 18:33:47,160 [print_queue] DEBUG Printer - Tickets printed for tx 1:010163,
+2019-06-03 18:33:48,161 [CS] DEBUG CS - Post in 2.00s
+2019-06-03 18:33:48,162 [CS] DEBUG CS - Post b787520f-5410-4561-a6b4-e528a40e468b:200(0)
+2019-06-03 18:33:49,163 [CS] DEBUG CS - END batch:3
+2019-06-03 18:34:01,164 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.ExitScreen (ExitScreenController)
+2019-06-03 18:34:03,165 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.TransactionSummary (TransactionSummaryController)
+2019-06-03 18:34:21,166 [NMEA Queue Reader] DEBUG RouteProgressManager - GPS events:9517ddb7-cb36-4f3e-9be3-bac579e14c78 (Gleneagles Trades Entrance), Rad=50, Leave; 
+2019-06-03 18:34:21,167 [NMEA Queue Reader] DEBUG TM1.Business.GenericRouteProgressTracker - Ignoring AA event:9517ddb7-cb36-4f3e-9be3-bac579e14c78, Leave
+2019-06-03 18:34:21,168 [NMEA Queue Reader] DEBUG TPP - OK Q
+2019-06-03 18:34:21,169 [-2036600870] DEBUG CS - Post RT 1e1645a7-5ff0-48e0-8a22-c4a92bbba60c IncomingLocation <inf loc="11aY1QTaY1QU256284604003750531... (200)
+2019-06-03 18:34:23,170 [NMEA Queue Reader] DEBUG RouteProgressManager - Vehicle in motion
+2019-06-03 18:34:23,171 [NMEA Queue Reader] DEBUG Desktop - Setting backlight to:50
+2019-06-03 18:34:23,172 [-2036600870] DEBUG CS - Post RT in 1.77s (163.57b/s)
+2019-06-03 18:34:49,173 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:34:49,174 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.ExitScreen (ExitScreenController) -back
+2019-06-03 18:34:51,175 [122707790] DEBUG Controllers.Business.DriverActivityHelper - START EndTripIfNeeded
+2019-06-03 18:34:51,176 [122707790] DEBUG Controllers.Business.TicketIssueHelper - START wait for jobs to finish:30000
+2019-06-03 18:34:51,177 [122707790] DEBUG Controllers.Business.TicketIssueHelper - END wait for jobs to finish
+2019-06-03 18:34:51,178 [122707790] DEBUG Controllers.Business.DriverActivityHelper - EndTrip
+2019-06-03 18:34:51,179 [122707790] INFO  TripHelper - END duty trip:d25d8ca2-17e8-47d7-a278-090fd114043e
+2019-06-03 18:34:51,180 [122707790] DEBUG TripHelper - Trip details:StartTime=2019-06-03 17:20:26
+Direction=6
+Journey=116
+Vehicle=ee9360d3-88dc-4a74-88f4-5e15f727356c
+Driver=e459cd8f-933c-4326-91f1-88f25c28c40e
+Service=a8a9b6c8-0bb3-4499-a962-4336ab9936a9
+TripType=Trip
+DriverSessionId=3958a48f-752b-4524-b4e9-998e5202b125
+ID=d25d8ca2-17e8-47d7-a278-090fd114043e
+DefinedDutyActivityId=ad6462ad-911c-4454-95ab-a9ec963bf89d
+ScheduledStartDateTime=2019-06-03 18:25:00
+
+2019-06-03 18:34:51,181 [122707790] DEBUG Controllers.Business.DriverActivityHelper - PostDutyTripEnd
+2019-06-03 18:34:51,182 [122707790] DEBUG Controllers.Business.DriverActivityHelper - SessionService.Finish
+2019-06-03 18:34:51,183 [122707790] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Clearing external displays
+2019-06-03 18:34:51,184 [122707790] DEBUG Controllers.Business.DriverActivityHelper - Clearing proximities
+2019-06-03 18:34:51,185 [122707790] DEBUG Controllers.Business.DriverActivityHelper - END EndTripIfNeeded
+2019-06-03 18:34:51,186 [122707790] INFO  Controllers.Business.DriverActivityHelper - Logging off:e459cd8f-933c-4326-91f1-88f25c28c40e
+2019-06-03 18:34:51,187 [driver_msg_notif] DEBUG DriverMessageService - Total unread, valid, and unexpired driver messages:0
+2019-06-03 18:34:52,188 [122707790] DEBUG Controllers.Business.DriverActivityHelper - START EndTripIfNeeded
+2019-06-03 18:34:52,189 [122707790] DEBUG Controllers.Business.TicketIssueHelper - START wait for jobs to finish:30000
+2019-06-03 18:34:52,190 [122707790] DEBUG Controllers.Business.TicketIssueHelper - END wait for jobs to finish
+2019-06-03 18:34:52,191 [122707790] DEBUG Controllers.Business.DriverActivityHelper - SessionService.Finish
+2019-06-03 18:34:52,192 [122707790] DEBUG TM1.Business.Services.ExternalDisplayCoordinator - Clearing external displays
+2019-06-03 18:34:52,193 [122707790] DEBUG Controllers.Business.DriverActivityHelper - Clearing proximities
+2019-06-03 18:34:52,194 [122707790] DEBUG Controllers.Business.DriverActivityHelper - END EndTripIfNeeded
+2019-06-03 18:34:52,195 [122707790] DEBUG Controllers.Business.DriverActivityHelper - EndDuty
+2019-06-03 18:34:52,196 [122707790] INFO  Controllers.Business.DriverActivityHelper - Ended duty: Duty4mf
+2019-06-03 18:34:52,197 [122707790] DEBUG RunTime - Duty is now: null
+2019-06-03 18:34:52,198 [122707790] INFO  Controllers.Business.DriverActivityHelper - Duty Totals: 3 trips cash:(17/3780) card:(0/0) annul:(0/0) zero:(31)
+2019-06-03 18:34:52,199 [122707790] DEBUG Controllers.Business.DriverActivityHelper - Printing duty summary, copies:1
+2019-06-03 18:34:52,200 [122707790] DEBUG Printer - Printing duty:Duty4mf
+2019-06-03 18:34:52,201 [122707790] DEBUG Controllers.Business.DriverActivityHelper - START FinishLogOff
+2019-06-03 18:34:52,202 [122707790] DEBUG RunTime - Duty is now: null
+2019-06-03 18:34:52,203 [122707790] DEBUG AvlReporter - Active: False
+2019-06-03 18:34:52,204 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.Login (LoginController)
+2019-06-03 18:34:52,205 [122707790] DEBUG PublicationCache - Decoded publication cache found for Vehicles, 0b734533-b93f-40a3-a271-706f66ea0829
+2019-06-03 18:34:52,206 [122707790] DEBUG Controllers.Business.DriverActivityHelper - END FinishLogOff
+2019-06-03 18:34:52,207 [122707790] DEBUG Controllers.Business.DriverActivityHelper - Log off took (sec): 1.2950892
+2019-06-03 18:34:54,208 [CS] DEBUG CS - Post msg:798fd822-b14d-43f1-9483-c38b3e659de5 IncomingDutyTripAction <inf dutytrip="0Duty4mfooxd0ugX10eieAkP0... (229)
+2019-06-03 18:34:56,209 [CS] DEBUG CS - Post in 1.83s
+2019-06-03 18:34:56,210 [CS] DEBUG CS - Post 798fd822-b14d-43f1-9483-c38b3e659de5:200(0)
+2019-06-03 18:34:56,211 [CS] DEBUG CS - Post msg:67dc9366-7106-4db3-b7ee-549dd115aa6a IncomingDriverLogon <inf logon="j81Z5DyTJkOR8YjyXCjEDg2487FA... (95)
+2019-06-03 18:34:58,212 [CS] DEBUG CS - Post in 1.68s
+2019-06-03 18:34:58,213 [CS] DEBUG CS - Post 67dc9366-7106-4db3-b7ee-549dd115aa6a:200(0)
+2019-06-03 18:34:58,214 [CS] DEBUG CS - END batch:4
+2019-06-03 18:35:00,215 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778758656
+2019-06-03 18:35:00,216 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14950400
+2019-06-03 18:35:00,217 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:1650032
+2019-06-03 18:35:00,218 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:35:00,219 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:35:00,220 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="25" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8620" pend="0" />  <sys uptime="8723" />  <print p0="2" />  <db /></session>
+2019-06-03 18:35:02,221 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:36:18,222 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:36:27,223 [PollAndDownload] DEBUG PublicationCache - Decoded publication cache found for Service, d1d89c11-055f-47c9-a2f9-cf82689a5677
+2019-06-03 18:36:35,224 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:36:52,225 [122707790] DEBUG Controllers.Business.ProcessHelper - Screen saver
+2019-06-03 18:36:52,226 [122707790] DEBUG Desktop - Setting backlight to:0
+2019-06-03 18:36:53,227 [122707790] DEBUG TM1.Controllers.MaintenanceController - Maintenance required: False
+2019-06-03 18:37:02,228 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778758656
+2019-06-03 18:37:02,229 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14950400
+2019-06-03 18:37:02,230 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2435944
+2019-06-03 18:37:02,231 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:37:02,232 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:37:02,233 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="25" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8742" pend="0" />  <sys uptime="8845" />  <print p0="2" />  <db /></session>
+2019-06-03 18:38:08,234 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:38:24,235 [SC poll] DEBUG SCR - Status:Online
+2019-06-03 18:38:53,236 [122707790] DEBUG TM1.Controllers.MaintenanceController - Maintenance required: False
+2019-06-03 18:39:03,237 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778758656
+2019-06-03 18:39:03,238 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:14950400
+2019-06-03 18:39:03,239 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:2289112
+2019-06-03 18:39:03,240 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:39:03,241 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:39:03,242 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="25" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8863" pend="0" />  <sys uptime="8966" />  <print p0="2" />  <db /></session>
+2019-06-03 18:39:33,243 [EventsSender] DEBUG Events.EventsLogger - Msg count currently:0
+2019-06-03 18:39:40,244 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:39:50,245 [CS] DEBUG CS - Post msg:96568d81-51da-414d-844e-a842ef93b4c2 IncomingGetPubs <get pubs="9:EZzY0V8FyUei-c-CaJpWdw,20:T... (351)
+2019-06-03 18:39:54,246 [CS] DEBUG CS - Post in 3.69s (119b/s)
+2019-06-03 18:39:54,247 [CS] DEBUG CS - Post 96568d81-51da-414d-844e-a842ef93b4c2:200(0)
+2019-06-03 18:39:54,248 [CS] DEBUG CS - END batch:4
+2019-06-03 18:40:35,249 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Lat/lng:56.2957568333333,-3.70620066666667
+2019-06-03 18:40:53,250 [122707790] DEBUG TM1.Controllers.MaintenanceController - Maintenance required: False
+2019-06-03 18:41:05,251 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - DF:12785664|15778742272
+2019-06-03 18:41:05,252 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Mem:15015936
+2019-06-03 18:41:05,253 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Managed:1390660
+2019-06-03 18:41:05,254 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Threads:159
+2019-06-03 18:41:05,255 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - Connection pool: 03151120_73774_comms.ticketer.org.uk:False; 03151122_564659_comms.ticketer.org.uk:False; 03151123_559209_comms.ticketer.org.uk:True; 
+2019-06-03 18:41:05,000 [BackgroundTaskEngine] DEBUG BackgroundTasks.MemoryLogTask - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="25" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8985" pend="0" />  <sys uptime="9088" />  <print p0="2" />  <db /></session>
+2019-06-03 18:41:09,001 [122707790] DEBUG Desktop - Setting backlight to:100
+2019-06-03 18:41:09,002 [122707790] DEBUG TM1.Factories.Screen - Swallowed touch event - enabling screen
+2019-06-03 18:41:09,003 [122707790] DEBUG TM1.Factories.Screen - Enabled screen
+2019-06-03 18:41:11,004 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - MS turned off event time determined to be:03/06/2019 17:41:11
+2019-06-03 18:41:11,005 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - Detected MS off/vbatt cut off, PowerInterpretedAsOk=True @ 03/06/2019 17:41:11
+2019-06-03 18:41:13,006 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - Debounced MS off/vbatt critical
+2019-06-03 18:41:13,007 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - InvokePowerFail:MsOff
+2019-06-03 18:41:13,008 [PowerFailMonitor] DEBUG Controllers.Business.PowerProcessHelper - START PowerFailedHandler:MsOff
+2019-06-03 18:41:13,009 [PowerFailMonitor] DEBUG Controllers.Business.PowerProcessHelper - Committed to shutdown
+2019-06-03 18:41:13,010 [PowerFailMonitor] DEBUG TM1.Factories.Screen - Invoking show PowerFail screen
+2019-06-03 18:41:13,011 [122707790] DEBUG TM1.Factories.Screen - Creating PowerFail screen
+2019-06-03 18:41:14,012 [CS] DEBUG CS - Poll (t) Response: 200(0)
+2019-06-03 18:41:14,013 [122707790] DEBUG TM_Screens.PowerFail - PowerFail processing model:Controllers.PowerFailScreenModel
+2019-06-03 18:41:14,014 [122707790] INFO  TM_Screens.PowerFail - Showing power fail screen
+2019-06-03 18:41:14,015 [122707790] INFO  TM1.Factories.Screen - Show screen TM_Screens.GenericMessage (LockedMessageController)
+2019-06-03 18:41:15,016 [122707790] DEBUG TM1.Factories.Screen - Loading screen TM_Screens.GenericMessage
+2019-06-03 18:41:15,017 [122707790] DEBUG TM_Screens.GenericMessage - Showing message:Shutting down
+2019-06-03 18:41:15,018 [122707790] DEBUG Controllers.Business.PowerProcessHelper - Committed to shutdown
+2019-06-03 18:41:15,019 [122707790] DEBUG PowerCoordination - SET AutoOff duration:300
+2019-06-03 18:41:15,020 [122707790] DEBUG Hardware.PowerMicroV1 - AutoOff duration set to:300
+2019-06-03 18:41:15,021 [122707790] DEBUG Controllers.Business.TicketIssueHelper - STOP
+2019-06-03 18:41:15,022 [ticket_persist] DEBUG Controllers.Business.TicketIssueHelper - END ProcessWorkItems
+2019-06-03 18:41:15,023 [122707790] DEBUG Controllers.Business.TicketIssueHelper - Stopped
+2019-06-03 18:41:15,024 [122707790] DEBUG Controllers.Business.PowerProcessHelper - Proceeding with maintenance boot power off
+2019-06-03 18:41:15,025 [122707790] DEBUG PowerCoordination - Setting maintenance AutoOff duration
+2019-06-03 18:41:15,026 [122707790] DEBUG PowerCoordination - SET AutoOff duration:2700
+2019-06-03 18:41:15,027 [122707790] DEBUG Hardware.PowerMicroV1 - AutoOff duration set to:2700
+2019-06-03 18:41:15,028 [122707790] DEBUG SystemInit - START clean shutdown:TurnOffWithTimedWake
+2019-06-03 18:41:15,029 [122707790] DEBUG SystemInit - Will wake up in 499 mins
+2019-06-03 18:41:15,030 [122707790] DEBUG SystemInit - START StopAllApplicationServices
+2019-06-03 18:41:15,031 [122707790] DEBUG PowerCoordination - SET AutoOff duration:300
+2019-06-03 18:41:15,032 [122707790] DEBUG Hardware.PowerMicroV1 - AutoOff duration set to:300
+2019-06-03 18:41:15,033 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - MS turned off event time determined to be:03/06/2019 17:41:15
+2019-06-03 18:41:15,034 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - Detected MS off/vbatt cut off, PowerInterpretedAsOk=False @ 03/06/2019 17:41:15
+2019-06-03 18:41:15,035 [122707790] DEBUG SystemInit - <session id="99418228-3b8b-4c1c-9946-421e177b10a0" d="0000000002130228" s="20190603150937">  <log />  <tkt total="25" />  <sc scans="9" wcnt="17" scandur="6317" wdur="7500" />  <conn uptime="8995" pend="0" />  <sys uptime="9098" />  <print p0="2" />  <db /></session>
+2019-06-03 18:41:15,036 [122707790] DEBUG SystemInit - ------------------- SHUTDOWN START ------------------------
+2019-06-03 18:41:15,037 [122707790] DEBUG TM1.Communicator.Communicator - Stopping communicator
+2019-06-03 18:41:16,038 [122707790] DEBUG CS - Stopping SendThread
+2019-06-03 18:41:16,039 [122707790] DEBUG TM1.Communicator.Communicator - END communicator
+2019-06-03 18:41:16,040 [122707790] DEBUG Hardware.PowerMonitor - START shutdown
+2019-06-03 18:41:16,041 [PowerFailMonitor] DEBUG Hardware.PowerMonitor - END PowerFailMonitor
+2019-06-03 18:41:16,042 [122707790] DEBUG Hardware.PowerMonitor - END shutdown
+2019-06-03 18:41:16,043 [FlushTicketMetaDataWorker] DEBUG RunTime - END FlushTicketDataWorker
+2019-06-03 18:41:16,044 [122707790] DEBUG AvlReporter - STOP AvlReportingWorker
+2019-06-03 18:41:16,045 [122707790] DEBUG AvlReporter - STOPPED AvlReportingWorker
+2019-06-03 18:41:16,046 [NMEA Queue Reader] DEBUG TM1.AVL.NmeaQueueReader - NMEA Queue Reader closing
+2019-06-03 18:41:16,047 [122707790] DEBUG BackgroundTaskEngine.Engine - Stopping all
+2019-06-03 18:41:16,048 [CS] DEBUG CS - SendThread is exiting - shutting down
+2019-06-03 18:41:18,049 [PollAndDownload] DEBUG TM1.Communicator.Communicator - PollThread is exiting - shutting down
+2019-06-03 18:41:26,050 [BackgroundTaskEngine] DEBUG BackgroundTaskEngine.Engine - BackgroundTaskEngine Thread closing
+2019-06-03 18:41:26,051 [122707790] DEBUG DriverMessageService - STOP
+2019-06-03 18:41:26,052 [driver_msg_notif] DEBUG DriverMessageService - END ProcessWorkItems
+2019-06-03 18:41:26,053 [122707790] DEBUG DriverMessageService - Stopped
+2019-06-03 18:41:26,054 [122707790] DEBUG Hardware.LedMasterControl - DEINIT
+2019-06-03 18:41:26,055 [LED Control Worker] DEBUG Hardware.LedMasterControl - END worker
+2019-06-03 18:41:26,056 [122707790] DEBUG SCR - START deinit
+2019-06-03 18:41:26,057 [SC poll] DEBUG SCR - END SCR run
+2019-06-03 18:41:26,058 [122707790] DEBUG SCR - Status:Offline
+2019-06-03 18:41:26,059 [122707790] DEBUG Hardware.LCD.LcdMasterControl - DEINIT
+2019-06-03 18:41:26,060 [LCD Control Worker] DEBUG Hardware.LCD.LcdMasterControl - END worker
+2019-06-03 18:41:26,061 [122707790] DEBUG ItsoManager.HotActionService - START deinit c2 bg processing
+2019-06-03 18:41:26,062 [122707790] DEBUG ItsoManager.HotActionService - OK deinit c2 bg processing
+2019-06-03 18:41:26,063 [122707790] DEBUG ItsoManager - START emv deinit
+2019-06-03 18:41:26,064 [122707790] DEBUG ItsoManager - OK emv deinit
+2019-06-03 18:41:26,065 [122707790] DEBUG ItsoManager - START DisconnectIsamAndReaderSafe
+2019-06-03 18:41:26,066 [122707790] DEBUG ItsoManager - END DisconnectIsamAndReaderSafe
+2019-06-03 18:41:26,067 [122707790] DEBUG SCR - OK deinit
+2019-06-03 18:41:26,068 [122707790] DEBUG ItsoManager - STOP
+2019-06-03 18:41:26,069 [ITSO_MSGS_WRITE] DEBUG ItsoManager - END ProcessWorkItems
+2019-06-03 18:41:26,070 [122707790] DEBUG ItsoManager - Stopped
+2019-06-03 18:41:26,071 [122707790] DEBUG Printer - START close printer port
+2019-06-03 18:41:26,072 [122707790] DEBUG Printer - OK close printer port
+2019-06-03 18:41:26,073 [122707790] DEBUG Printer - STOP
+2019-06-03 18:41:26,074 [print_queue] DEBUG Printer - END ProcessWorkItems
+2019-06-03 18:41:26,075 [122707790] DEBUG Printer - Stopped
+2019-06-03 18:41:26,076 [122707790] DEBUG TM1.Communicator.Communicator - Stopping communicator
+2019-06-03 18:41:26,077 [122707790] DEBUG CS - Stopping SendThread
+2019-06-03 18:41:26,078 [122707790] DEBUG CS - STOP
+2019-06-03 18:41:26,079 [comms_persist] DEBUG CS - END ProcessWorkItems
+2019-06-03 18:41:26,080 [122707790] DEBUG CS - Stopped
+2019-06-03 18:41:26,081 [122707790] DEBUG TM1.Communicator.Communicator - END communicator
+2019-06-03 18:41:27,082 [122707790] DEBUG SystemInit - SD alive:True (True)
+2019-06-03 18:41:39,083 [122707790] DEBUG SystemInit - Waited 6 times for SD
+2019-06-03 18:41:39,084 [122707790] DEBUG Configuration.KeyValueStore - Flushing reg
+2019-06-03 18:41:39,085 [122707790] INFO  SystemInit - Clean shutdown set.
+2019-06-03 18:41:39,086 [122707790] DEBUG SystemInit - ----------------- SHUTDOWN: END OF LOGGING ------------------
+(null) [(null)] DEBUG (null) - Logging shutdown
+[LogEnd]
